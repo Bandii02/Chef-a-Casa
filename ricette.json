@@ -1,0 +1,513 @@
+{
+ "_info": "Catalogo ricette di Chef a Casa. Per ogni ricetta, 'img' e' il percorso della foto nella cartella foto/ del repository. Aggiungi ricette copiando un blocco; modifica direttamente da GitHub (matita).",
+ "versione": "2.0",
+ "ricette": [
+  {
+   "id": "b_spaghettiallacarbo",
+   "nome": "Spaghetti alla Carbonara",
+   "tempo": 25,
+   "cat": "Primo",
+   "app": "Fornello",
+   "img": "foto/spaghetti-alla-carbonara.jpg",
+   "por": 4,
+   "tip": "Niente panna, e niente fuoco acceso quando aggiungi le uova.",
+   "ing": [
+    {
+     "n": "Spaghetti",
+     "q": 320,
+     "u": "g"
+    },
+    {
+     "n": "Guanciale",
+     "q": 150,
+     "u": "g"
+    },
+    {
+     "n": "Uova",
+     "q": 4,
+     "u": "pz"
+    },
+    {
+     "n": "Pecorino romano",
+     "q": 60,
+     "u": "g"
+    },
+    {
+     "n": "Pepe nero",
+     "q": 0,
+     "u": ""
+    }
+   ],
+   "pas": [
+    "Rosola il guanciale a freddo in padella finché è dorato.",
+    "Cuoci gli spaghetti al dente.",
+    "Sbatti uova, pecorino e pepe in una ciotola.",
+    "Manteca a fuoco spento con un mestolo di acqua di cottura."
+   ]
+  },
+  {
+   "id": "b_pastaalpomodoro",
+   "nome": "Pasta al Pomodoro",
+   "tempo": 20,
+   "cat": "Primo",
+   "app": "Fornello",
+   "img": "foto/pasta-al-pomodoro.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Spaghetti",
+     "q": 320,
+     "u": "g"
+    },
+    {
+     "n": "Passata di pomodoro",
+     "q": 400,
+     "u": "ml"
+    },
+    {
+     "n": "Aglio",
+     "q": 2,
+     "u": "spicchi"
+    },
+    {
+     "n": "Olio EVO",
+     "q": 3,
+     "u": "cucchiai"
+    },
+    {
+     "n": "Basilico",
+     "q": 0,
+     "u": ""
+    }
+   ],
+   "pas": [
+    "Soffriggi l'aglio nell'olio.",
+    "Aggiungi la passata e cuoci 12 minuti.",
+    "Salta la pasta nel sugo con il basilico."
+   ]
+  },
+  {
+   "id": "b_risottoaifunghi",
+   "nome": "Risotto ai Funghi",
+   "tempo": 35,
+   "cat": "Primo",
+   "app": "Fornello",
+   "img": "foto/risotto-ai-funghi.jpg",
+   "por": 4,
+   "tip": "Lascia riposare il risotto 2 minuti prima di servire.",
+   "ing": [
+    {
+     "n": "Riso Carnaroli",
+     "q": 320,
+     "u": "g"
+    },
+    {
+     "n": "Funghi champignon",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "n": "Brodo vegetale",
+     "q": 1,
+     "u": "l"
+    },
+    {
+     "n": "Cipolla",
+     "q": 1,
+     "u": "pz"
+    },
+    {
+     "n": "Parmigiano",
+     "q": 50,
+     "u": "g"
+    },
+    {
+     "n": "Burro",
+     "q": 30,
+     "u": "g"
+    }
+   ],
+   "pas": [
+    "Soffriggi la cipolla e tosta il riso 2 minuti.",
+    "Aggiungi i funghi trifolati.",
+    "Cuoci 16 minuti aggiungendo brodo caldo man mano.",
+    "Manteca con burro e parmigiano."
+   ]
+  },
+  {
+   "id": "b_pollocroccanteinfr",
+   "nome": "Pollo Croccante in Friggitrice ad Aria",
+   "tempo": 25,
+   "cat": "Secondo",
+   "app": "Friggitrice ad Aria",
+   "img": "foto/pollo-croccante-in-friggitrice-ad-aria.jpg",
+   "por": 4,
+   "tip": "È pronto quando i succhi sono chiari.",
+   "ing": [
+    {
+     "n": "Cosce di pollo",
+     "q": 800,
+     "u": "g"
+    },
+    {
+     "n": "Paprika dolce",
+     "q": 2,
+     "u": "cucchiaini"
+    },
+    {
+     "n": "Olio EVO",
+     "q": 2,
+     "u": "cucchiai"
+    },
+    {
+     "n": "Pangrattato",
+     "q": 50,
+     "u": "g"
+    },
+    {
+     "n": "Sale",
+     "q": 0,
+     "u": ""
+    }
+   ],
+   "pas": [
+    "Condisci il pollo con olio, paprika, sale e pangrattato.",
+    "Cuoci a 190°C per 20-22 minuti girando a metà."
+   ]
+  },
+  {
+   "id": "b_patatealforno",
+   "nome": "Patate al Forno",
+   "tempo": 50,
+   "cat": "Contorno",
+   "app": "Forno",
+   "img": "foto/patate-al-forno.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Patate",
+     "q": 1000,
+     "u": "g"
+    },
+    {
+     "n": "Olio EVO",
+     "q": 4,
+     "u": "cucchiai"
+    },
+    {
+     "n": "Aglio",
+     "q": 2,
+     "u": "spicchi"
+    },
+    {
+     "n": "Rosmarino",
+     "q": 0,
+     "u": ""
+    },
+    {
+     "n": "Sale",
+     "q": 0,
+     "u": ""
+    }
+   ],
+   "pas": [
+    "Taglia le patate a tocchetti e condiscile.",
+    "Inforna a 200°C per 40-45 minuti mescolando a metà."
+   ]
+  },
+  {
+   "id": "b_lasagneallabologne",
+   "nome": "Lasagne alla Bolognese",
+   "tempo": 90,
+   "cat": "Primo",
+   "app": "Forno",
+   "img": "foto/lasagne-alla-bolognese.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Sfoglie di lasagna",
+     "q": 250,
+     "u": "g"
+    },
+    {
+     "n": "Ragù di carne",
+     "q": 600,
+     "u": "g"
+    },
+    {
+     "n": "Besciamella",
+     "q": 500,
+     "u": "ml"
+    },
+    {
+     "n": "Parmigiano",
+     "q": 80,
+     "u": "g"
+    }
+   ],
+   "pas": [
+    "Alterna strati di sfoglia, ragù, besciamella e parmigiano.",
+    "Cuoci a 180°C per 40 minuti.",
+    "Lascia riposare 10 minuti prima di tagliare."
+   ]
+  },
+  {
+   "id": "b_salmonealfornoconl",
+   "nome": "Salmone al Forno con Limone",
+   "tempo": 25,
+   "cat": "Secondo",
+   "app": "Forno",
+   "img": "foto/salmone-al-forno-con-limone.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Filetti di salmone",
+     "q": 600,
+     "u": "g"
+    },
+    {
+     "n": "Limoni",
+     "q": 2,
+     "u": "pz"
+    },
+    {
+     "n": "Olio EVO",
+     "q": 2,
+     "u": "cucchiai"
+    },
+    {
+     "n": "Erbe aromatiche",
+     "q": 0,
+     "u": ""
+    },
+    {
+     "n": "Sale",
+     "q": 0,
+     "u": ""
+    }
+   ],
+   "pas": [
+    "Adagia i filetti su carta forno con olio, limone ed erbe.",
+    "Cuoci a 190°C per 15-18 minuti."
+   ]
+  },
+  {
+   "id": "b_hamburgerallagrigl",
+   "nome": "Hamburger alla Griglia",
+   "tempo": 20,
+   "cat": "Secondo",
+   "app": "Griglia",
+   "img": "foto/hamburger-alla-griglia.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Macinato di manzo",
+     "q": 600,
+     "u": "g"
+    },
+    {
+     "n": "Panini per hamburger",
+     "q": 4,
+     "u": "pz"
+    },
+    {
+     "n": "Formaggio a fette",
+     "q": 4,
+     "u": "pz"
+    },
+    {
+     "n": "Insalata",
+     "q": 100,
+     "u": "g"
+    },
+    {
+     "n": "Pomodori",
+     "q": 2,
+     "u": "pz"
+    }
+   ],
+   "pas": [
+    "Forma 4 hamburger e salali.",
+    "Griglia 4-5 minuti per lato, aggiungendo il formaggio.",
+    "Farcisci i panini con insalata e pomodoro."
+   ]
+  },
+  {
+   "id": "b_vellutatadizucca",
+   "nome": "Vellutata di Zucca",
+   "tempo": 30,
+   "cat": "Primo",
+   "app": "Bimby",
+   "img": "foto/vellutata-di-zucca.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Zucca",
+     "q": 800,
+     "u": "g"
+    },
+    {
+     "n": "Patate",
+     "q": 200,
+     "u": "g"
+    },
+    {
+     "n": "Cipolla",
+     "q": 1,
+     "u": "pz"
+    },
+    {
+     "n": "Brodo vegetale",
+     "q": 500,
+     "u": "ml"
+    },
+    {
+     "n": "Olio EVO",
+     "q": 2,
+     "u": "cucchiai"
+    }
+   ],
+   "pas": [
+    "Cipolla e olio nel boccale: 3 min, 100°C, vel. 1.",
+    "Aggiungi zucca, patate e brodo: 20 min, 100°C, vel. 1.",
+    "Frulla 1 minuto aumentando fino a vel. 6."
+   ]
+  },
+  {
+   "id": "b_zuppadilenticchie",
+   "nome": "Zuppa di Lenticchie",
+   "tempo": 25,
+   "cat": "Piatto unico",
+   "app": "Pentola a Pressione",
+   "img": "foto/zuppa-di-lenticchie.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Lenticchie",
+     "q": 300,
+     "u": "g"
+    },
+    {
+     "n": "Carote",
+     "q": 2,
+     "u": "pz"
+    },
+    {
+     "n": "Sedano",
+     "q": 1,
+     "u": "costa"
+    },
+    {
+     "n": "Passata di pomodoro",
+     "q": 200,
+     "u": "ml"
+    },
+    {
+     "n": "Brodo vegetale",
+     "q": 1,
+     "u": "l"
+    }
+   ],
+   "pas": [
+    "Fai un soffritto di carota e sedano.",
+    "Aggiungi lenticchie, passata e brodo.",
+    "Chiudi e cuoci 15 minuti dal fischio."
+   ]
+  },
+  {
+   "id": "b_mugcakealcioccolat",
+   "nome": "Mug Cake al Cioccolato",
+   "tempo": 5,
+   "cat": "Dolce",
+   "app": "Microonde",
+   "img": "foto/mug-cake-al-cioccolato.jpg",
+   "por": 4,
+   "tip": "Controlla la cottura con uno stecchino.",
+   "ing": [
+    {
+     "n": "Farina 00",
+     "q": 100,
+     "u": "g"
+    },
+    {
+     "n": "Cacao amaro",
+     "q": 30,
+     "u": "g"
+    },
+    {
+     "n": "Zucchero",
+     "q": 80,
+     "u": "g"
+    },
+    {
+     "n": "Latte",
+     "q": 120,
+     "u": "ml"
+    },
+    {
+     "n": "Olio di semi",
+     "q": 60,
+     "u": "ml"
+    },
+    {
+     "n": "Lievito per dolci",
+     "q": 1,
+     "u": "cucchiaino"
+    }
+   ],
+   "pas": [
+    "Mescola gli ingredienti in 4 tazze.",
+    "Microonde 1 minuto e 30 secondi a 800 W."
+   ]
+  },
+  {
+   "id": "b_frittatadizucchine",
+   "nome": "Frittata di Zucchine",
+   "tempo": 20,
+   "cat": "Piatto unico",
+   "app": "Fornello",
+   "img": "foto/frittata-di-zucchine.jpg",
+   "por": 4,
+   "tip": "",
+   "ing": [
+    {
+     "n": "Uova",
+     "q": 8,
+     "u": "pz"
+    },
+    {
+     "n": "Zucchine",
+     "q": 400,
+     "u": "g"
+    },
+    {
+     "n": "Parmigiano",
+     "q": 60,
+     "u": "g"
+    },
+    {
+     "n": "Olio EVO",
+     "q": 2,
+     "u": "cucchiai"
+    },
+    {
+     "n": "Sale",
+     "q": 0,
+     "u": ""
+    }
+   ],
+   "pas": [
+    "Salta le zucchine in padella per 6 minuti.",
+    "Sbatti le uova con parmigiano e sale e uniscile.",
+    "Cuoci coperta 5 minuti per lato."
+   ]
+  }
+ ]
+}
