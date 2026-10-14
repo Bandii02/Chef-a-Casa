@@ -1,513 +1,3333 @@
 {
- "_info": "Catalogo ricette di Chef a Casa. Per ogni ricetta, 'img' e' il percorso della foto nella cartella foto/ del repository. Aggiungi ricette copiando un blocco; modifica direttamente da GitHub (matita).",
+ "_info": "Catalogo Chef a Casa: 100 ricette italiane e 40 dal mondo (primi, secondi e piatti unici). Dosi per 4 persone: l'app le ricalcola da sola.",
+ "_foto": "Per ogni ricetta il campo 'img' e' il nome ESATTO con cui salvare la foto nella cartella foto/ del repository: tutto minuscolo, senza accenti, apostrofi e virgole diventano trattini, estensione .jpg. Esempio: foto/spaghetti-alla-carbonara.jpg. Non devi modificare nulla in questo file.",
  "versione": "2.0",
  "ricette": [
   {
    "id": "b_spaghettiallacarbo",
    "nome": "Spaghetti alla Carbonara",
-   "tempo": 25,
-   "cat": "Primo",
-   "app": "Fornello",
    "img": "foto/spaghetti-alla-carbonara.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 25,
+   "app": "Fornello",
    "por": 4,
-   "tip": "Niente panna, e niente fuoco acceso quando aggiungi le uova.",
    "ing": [
-    {
-     "n": "Spaghetti",
-     "q": 320,
-     "u": "g"
-    },
-    {
-     "n": "Guanciale",
-     "q": 150,
-     "u": "g"
-    },
-    {
-     "n": "Uova",
-     "q": 4,
-     "u": "pz"
-    },
-    {
-     "n": "Pecorino romano",
-     "q": 60,
-     "u": "g"
-    },
-    {
-     "n": "Pepe nero",
-     "q": 0,
-     "u": ""
-    }
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Guanciale","q":150,"u":"g"},
+    {"n":"Uova","q":4,"u":"pz"},
+    {"n":"Pecorino romano","q":60,"u":"g"},
+    {"n":"Pepe nero","q":0,"u":""}
    ],
    "pas": [
-    "Rosola il guanciale a freddo in padella finché è dorato.",
-    "Cuoci gli spaghetti al dente.",
-    "Sbatti uova, pecorino e pepe in una ciotola.",
-    "Manteca a fuoco spento con un mestolo di acqua di cottura."
-   ]
+    "Rosola il guanciale a freddo in padella finché è dorato",
+    "Cuoci gli spaghetti al dente",
+    "Sbatti uova, pecorino e pepe in una ciotola",
+    "Manteca a fuoco spento con un mestolo di acqua di cottura"
+   ],
+   "tip": "Niente panna, e niente fuoco acceso quando aggiungi le uova."
   },
   {
    "id": "b_pastaalpomodoro",
    "nome": "Pasta al Pomodoro",
-   "tempo": 20,
-   "cat": "Primo",
-   "app": "Fornello",
    "img": "foto/pasta-al-pomodoro.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 20,
+   "app": "Fornello",
    "por": 4,
-   "tip": "",
    "ing": [
-    {
-     "n": "Spaghetti",
-     "q": 320,
-     "u": "g"
-    },
-    {
-     "n": "Passata di pomodoro",
-     "q": 400,
-     "u": "ml"
-    },
-    {
-     "n": "Aglio",
-     "q": 2,
-     "u": "spicchi"
-    },
-    {
-     "n": "Olio EVO",
-     "q": 3,
-     "u": "cucchiai"
-    },
-    {
-     "n": "Basilico",
-     "q": 0,
-     "u": ""
-    }
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"},
+    {"n":"Basilico","q":0,"u":""}
    ],
    "pas": [
-    "Soffriggi l'aglio nell'olio.",
-    "Aggiungi la passata e cuoci 12 minuti.",
-    "Salta la pasta nel sugo con il basilico."
-   ]
+    "Soffriggi l'aglio nell'olio",
+    "Aggiungi la passata e cuoci 12 minuti",
+    "Salta la pasta nel sugo con il basilico"
+   ],
+   "tip": ""
   },
   {
    "id": "b_risottoaifunghi",
    "nome": "Risotto ai Funghi",
-   "tempo": 35,
-   "cat": "Primo",
-   "app": "Fornello",
    "img": "foto/risotto-ai-funghi.jpg",
+   "cat": "Primo - Nord Italia",
+   "tempo": 35,
+   "app": "Fornello",
    "por": 4,
-   "tip": "Lascia riposare il risotto 2 minuti prima di servire.",
    "ing": [
-    {
-     "n": "Riso Carnaroli",
-     "q": 320,
-     "u": "g"
-    },
-    {
-     "n": "Funghi champignon",
-     "q": 300,
-     "u": "g"
-    },
-    {
-     "n": "Brodo vegetale",
-     "q": 1,
-     "u": "l"
-    },
-    {
-     "n": "Cipolla",
-     "q": 1,
-     "u": "pz"
-    },
-    {
-     "n": "Parmigiano",
-     "q": 50,
-     "u": "g"
-    },
-    {
-     "n": "Burro",
-     "q": 30,
-     "u": "g"
-    }
+    {"n":"Riso Carnaroli","q":320,"u":"g"},
+    {"n":"Funghi champignon","q":300,"u":"g"},
+    {"n":"Brodo vegetale","q":1,"u":"l"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Burro","q":30,"u":"g"}
    ],
    "pas": [
-    "Soffriggi la cipolla e tosta il riso 2 minuti.",
-    "Aggiungi i funghi trifolati.",
-    "Cuoci 16 minuti aggiungendo brodo caldo man mano.",
-    "Manteca con burro e parmigiano."
-   ]
-  },
-  {
-   "id": "b_pollocroccanteinfr",
-   "nome": "Pollo Croccante in Friggitrice ad Aria",
-   "tempo": 25,
-   "cat": "Secondo",
-   "app": "Friggitrice ad Aria",
-   "img": "foto/pollo-croccante-in-friggitrice-ad-aria.jpg",
-   "por": 4,
-   "tip": "È pronto quando i succhi sono chiari.",
-   "ing": [
-    {
-     "n": "Cosce di pollo",
-     "q": 800,
-     "u": "g"
-    },
-    {
-     "n": "Paprika dolce",
-     "q": 2,
-     "u": "cucchiaini"
-    },
-    {
-     "n": "Olio EVO",
-     "q": 2,
-     "u": "cucchiai"
-    },
-    {
-     "n": "Pangrattato",
-     "q": 50,
-     "u": "g"
-    },
-    {
-     "n": "Sale",
-     "q": 0,
-     "u": ""
-    }
+    "Soffriggi la cipolla e tosta il riso 2 minuti",
+    "Aggiungi i funghi trifolati",
+    "Cuoci 16 minuti aggiungendo brodo caldo man mano",
+    "Manteca con burro e parmigiano"
    ],
-   "pas": [
-    "Condisci il pollo con olio, paprika, sale e pangrattato.",
-    "Cuoci a 190°C per 20-22 minuti girando a metà."
-   ]
-  },
-  {
-   "id": "b_patatealforno",
-   "nome": "Patate al Forno",
-   "tempo": 50,
-   "cat": "Contorno",
-   "app": "Forno",
-   "img": "foto/patate-al-forno.jpg",
-   "por": 4,
-   "tip": "",
-   "ing": [
-    {
-     "n": "Patate",
-     "q": 1000,
-     "u": "g"
-    },
-    {
-     "n": "Olio EVO",
-     "q": 4,
-     "u": "cucchiai"
-    },
-    {
-     "n": "Aglio",
-     "q": 2,
-     "u": "spicchi"
-    },
-    {
-     "n": "Rosmarino",
-     "q": 0,
-     "u": ""
-    },
-    {
-     "n": "Sale",
-     "q": 0,
-     "u": ""
-    }
-   ],
-   "pas": [
-    "Taglia le patate a tocchetti e condiscile.",
-    "Inforna a 200°C per 40-45 minuti mescolando a metà."
-   ]
+   "tip": "Lascia riposare il risotto 2 minuti prima di servire."
   },
   {
    "id": "b_lasagneallabologne",
    "nome": "Lasagne alla Bolognese",
-   "tempo": 90,
-   "cat": "Primo",
-   "app": "Forno",
    "img": "foto/lasagne-alla-bolognese.jpg",
-   "por": 4,
-   "tip": "",
-   "ing": [
-    {
-     "n": "Sfoglie di lasagna",
-     "q": 250,
-     "u": "g"
-    },
-    {
-     "n": "Ragù di carne",
-     "q": 600,
-     "u": "g"
-    },
-    {
-     "n": "Besciamella",
-     "q": 500,
-     "u": "ml"
-    },
-    {
-     "n": "Parmigiano",
-     "q": 80,
-     "u": "g"
-    }
-   ],
-   "pas": [
-    "Alterna strati di sfoglia, ragù, besciamella e parmigiano.",
-    "Cuoci a 180°C per 40 minuti.",
-    "Lascia riposare 10 minuti prima di tagliare."
-   ]
-  },
-  {
-   "id": "b_salmonealfornoconl",
-   "nome": "Salmone al Forno con Limone",
-   "tempo": 25,
-   "cat": "Secondo",
+   "cat": "Primo - Emilia-Romagna",
+   "tempo": 90,
    "app": "Forno",
-   "img": "foto/salmone-al-forno-con-limone.jpg",
    "por": 4,
-   "tip": "",
    "ing": [
-    {
-     "n": "Filetti di salmone",
-     "q": 600,
-     "u": "g"
-    },
-    {
-     "n": "Limoni",
-     "q": 2,
-     "u": "pz"
-    },
-    {
-     "n": "Olio EVO",
-     "q": 2,
-     "u": "cucchiai"
-    },
-    {
-     "n": "Erbe aromatiche",
-     "q": 0,
-     "u": ""
-    },
-    {
-     "n": "Sale",
-     "q": 0,
-     "u": ""
-    }
+    {"n":"Sfoglie di lasagna","q":250,"u":"g"},
+    {"n":"Ragù di carne","q":600,"u":"g"},
+    {"n":"Besciamella","q":500,"u":"ml"},
+    {"n":"Parmigiano","q":80,"u":"g"}
    ],
    "pas": [
-    "Adagia i filetti su carta forno con olio, limone ed erbe.",
-    "Cuoci a 190°C per 15-18 minuti."
-   ]
-  },
-  {
-   "id": "b_hamburgerallagrigl",
-   "nome": "Hamburger alla Griglia",
-   "tempo": 20,
-   "cat": "Secondo",
-   "app": "Griglia",
-   "img": "foto/hamburger-alla-griglia.jpg",
-   "por": 4,
-   "tip": "",
-   "ing": [
-    {
-     "n": "Macinato di manzo",
-     "q": 600,
-     "u": "g"
-    },
-    {
-     "n": "Panini per hamburger",
-     "q": 4,
-     "u": "pz"
-    },
-    {
-     "n": "Formaggio a fette",
-     "q": 4,
-     "u": "pz"
-    },
-    {
-     "n": "Insalata",
-     "q": 100,
-     "u": "g"
-    },
-    {
-     "n": "Pomodori",
-     "q": 2,
-     "u": "pz"
-    }
+    "Alterna strati di sfoglia, ragù, besciamella e parmigiano",
+    "Cuoci a 180°C per 40 minuti",
+    "Lascia riposare 10 minuti prima di tagliare"
    ],
-   "pas": [
-    "Forma 4 hamburger e salali.",
-    "Griglia 4-5 minuti per lato, aggiungendo il formaggio.",
-    "Farcisci i panini con insalata e pomodoro."
-   ]
+   "tip": ""
   },
   {
    "id": "b_vellutatadizucca",
    "nome": "Vellutata di Zucca",
-   "tempo": 30,
-   "cat": "Primo",
-   "app": "Bimby",
    "img": "foto/vellutata-di-zucca.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 30,
+   "app": "Bimby",
    "por": 4,
-   "tip": "",
    "ing": [
-    {
-     "n": "Zucca",
-     "q": 800,
-     "u": "g"
-    },
-    {
-     "n": "Patate",
-     "q": 200,
-     "u": "g"
-    },
-    {
-     "n": "Cipolla",
-     "q": 1,
-     "u": "pz"
-    },
-    {
-     "n": "Brodo vegetale",
-     "q": 500,
-     "u": "ml"
-    },
-    {
-     "n": "Olio EVO",
-     "q": 2,
-     "u": "cucchiai"
-    }
+    {"n":"Zucca","q":800,"u":"g"},
+    {"n":"Patate","q":200,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Brodo vegetale","q":500,"u":"ml"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"}
    ],
    "pas": [
-    "Cipolla e olio nel boccale: 3 min, 100°C, vel. 1.",
-    "Aggiungi zucca, patate e brodo: 20 min, 100°C, vel. 1.",
-    "Frulla 1 minuto aumentando fino a vel. 6."
-   ]
+    "Cipolla e olio nel boccale: 3 min, 100°C, vel. 1",
+    "Aggiungi zucca, patate e brodo: 20 min, 100°C, vel. 1",
+    "Frulla 1 minuto aumentando fino a vel. 6"
+   ],
+   "tip": ""
   },
   {
    "id": "b_zuppadilenticchie",
    "nome": "Zuppa di Lenticchie",
-   "tempo": 25,
-   "cat": "Piatto unico",
-   "app": "Pentola a Pressione",
    "img": "foto/zuppa-di-lenticchie.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 25,
+   "app": "Pentola a Pressione",
    "por": 4,
-   "tip": "",
    "ing": [
-    {
-     "n": "Lenticchie",
-     "q": 300,
-     "u": "g"
-    },
-    {
-     "n": "Carote",
-     "q": 2,
-     "u": "pz"
-    },
-    {
-     "n": "Sedano",
-     "q": 1,
-     "u": "costa"
-    },
-    {
-     "n": "Passata di pomodoro",
-     "q": 200,
-     "u": "ml"
-    },
-    {
-     "n": "Brodo vegetale",
-     "q": 1,
-     "u": "l"
-    }
+    {"n":"Lenticchie","q":300,"u":"g"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Passata di pomodoro","q":200,"u":"ml"},
+    {"n":"Brodo vegetale","q":1,"u":"l"}
    ],
    "pas": [
-    "Fai un soffritto di carota e sedano.",
-    "Aggiungi lenticchie, passata e brodo.",
-    "Chiudi e cuoci 15 minuti dal fischio."
-   ]
+    "Fai un soffritto di carota e sedano",
+    "Aggiungi lenticchie, passata e brodo",
+    "Chiudi e cuoci 15 minuti dal fischio"
+   ],
+   "tip": ""
   },
   {
-   "id": "b_mugcakealcioccolat",
-   "nome": "Mug Cake al Cioccolato",
-   "tempo": 5,
-   "cat": "Dolce",
-   "app": "Microonde",
-   "img": "foto/mug-cake-al-cioccolato.jpg",
+   "id": "r_spaghetti-all-amatriciana",
+   "nome": "Spaghetti all'Amatriciana",
+   "img": "foto/spaghetti-all-amatriciana.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 25,
+   "app": "Fornello",
    "por": 4,
-   "tip": "Controlla la cottura con uno stecchino.",
    "ing": [
-    {
-     "n": "Farina 00",
-     "q": 100,
-     "u": "g"
-    },
-    {
-     "n": "Cacao amaro",
-     "q": 30,
-     "u": "g"
-    },
-    {
-     "n": "Zucchero",
-     "q": 80,
-     "u": "g"
-    },
-    {
-     "n": "Latte",
-     "q": 120,
-     "u": "ml"
-    },
-    {
-     "n": "Olio di semi",
-     "q": 60,
-     "u": "ml"
-    },
-    {
-     "n": "Lievito per dolci",
-     "q": 1,
-     "u": "cucchiaino"
-    }
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Guanciale","q":150,"u":"g"},
+    {"n":"Pomodori pelati","q":400,"u":"g"},
+    {"n":"Pecorino romano","q":50,"u":"g"},
+    {"n":"Peperoncino","q":0,"u":""},
+    {"n":"Sale","q":0,"u":""}
    ],
    "pas": [
-    "Mescola gli ingredienti in 4 tazze.",
-    "Microonde 1 minuto e 30 secondi a 800 W."
-   ]
+    "Rosola il guanciale e sfumalo con un goccio di vino",
+    "Aggiungi i pelati e cuoci 15 minuti",
+    "Salta la pasta nel sugo e finisci con il pecorino"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_bucatini-alla-gricia",
+   "nome": "Bucatini alla Gricia",
+   "img": "foto/bucatini-alla-gricia.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Bucatini","q":320,"u":"g"},
+    {"n":"Guanciale","q":150,"u":"g"},
+    {"n":"Pecorino romano","q":80,"u":"g"},
+    {"n":"Pepe nero","q":0,"u":""}
+   ],
+   "pas": [
+    "Rosola il guanciale a fuoco dolce",
+    "Cuoci i bucatini al dente",
+    "Manteca con pecorino, pepe e acqua di cottura"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_cacio-e-pepe",
+   "nome": "Cacio e Pepe",
+   "img": "foto/cacio-e-pepe.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Tonnarelli","q":320,"u":"g"},
+    {"n":"Pecorino romano","q":120,"u":"g"},
+    {"n":"Pepe nero","q":2,"u":"cucchiaini"}
+   ],
+   "pas": [
+    "Tosta il pepe in padella",
+    "Cuoci la pasta e tieni l'acqua di cottura",
+    "Crea una crema con pecorino e acqua tiepida",
+    "Manteca la pasta nella crema"
+   ],
+   "tip": "Usa poco sale nell'acqua: il pecorino è già sapido."
+  },
+  {
+   "id": "r_penne-all-arrabbiata",
+   "nome": "Penne all'Arrabbiata",
+   "img": "foto/penne-all-arrabbiata.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Penne rigate","q":320,"u":"g"},
+    {"n":"Pomodori pelati","q":400,"u":"g"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Peperoncino","q":2,"u":"pz"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Soffriggi aglio e peperoncino nell'olio",
+    "Aggiungi i pelati e cuoci 12 minuti",
+    "Salta le penne nel sugo con prezzemolo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_spaghetti-alle-vongole",
+   "nome": "Spaghetti alle Vongole",
+   "img": "foto/spaghetti-alle-vongole.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Vongole veraci","q":1000,"u":"g"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Vino bianco","q":80,"u":"ml"},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Spurga le vongole in acqua salata",
+    "Aprile in padella coperta con aglio e olio, poi sfuma col vino",
+    "Salta la pasta con le vongole e il prezzemolo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_spaghetti-aglio-olio-e-peperoncino",
+   "nome": "Spaghetti Aglio, Olio e Peperoncino",
+   "img": "foto/spaghetti-aglio-olio-e-peperoncino.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 15,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Olio EVO","q":6,"u":"cucchiai"},
+    {"n":"Peperoncino","q":1,"u":"pz"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Fai dorare piano l'aglio con il peperoncino nell'olio",
+    "Cuoci gli spaghetti al dente",
+    "Salta con un mestolo di acqua di cottura e prezzemolo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-alla-norma",
+   "nome": "Pasta alla Norma",
+   "img": "foto/pasta-alla-norma.jpg",
+   "cat": "Primo - Sicilia",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Maccheroni","q":320,"u":"g"},
+    {"n":"Melanzane","q":2,"u":"pz"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Ricotta salata","q":80,"u":"g"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Friggi o griglia le melanzane a cubetti",
+    "Prepara un sugo semplice con la passata",
+    "Condisci la pasta con sugo e melanzane",
+    "Completa con ricotta salata grattugiata e basilico"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-alla-puttanesca",
+   "nome": "Pasta alla Puttanesca",
+   "img": "foto/pasta-alla-puttanesca.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Pomodori pelati","q":400,"u":"g"},
+    {"n":"Olive nere","q":80,"u":"g"},
+    {"n":"Capperi","q":30,"u":"g"},
+    {"n":"Acciughe sotto sale","q":4,"u":"pz"},
+    {"n":"Aglio","q":2,"u":"spicchi"}
+   ],
+   "pas": [
+    "Sciogli le acciughe nell'olio con l'aglio",
+    "Aggiungi pelati, olive e capperi e cuoci 12 minuti",
+    "Salta la pasta nel sugo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_tagliatelle-al-ragu",
+   "nome": "Tagliatelle al Ragù",
+   "img": "foto/tagliatelle-al-ragu.jpg",
+   "cat": "Primo - Emilia-Romagna",
+   "tempo": 150,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Tagliatelle","q":320,"u":"g"},
+    {"n":"Macinato di manzo","q":300,"u":"g"},
+    {"n":"Salsiccia","q":100,"u":"g"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Vino rosso","q":100,"u":"ml"}
+   ],
+   "pas": [
+    "Prepara un soffritto finissimo di carota, sedano e cipolla",
+    "Rosola la carne e sfuma col vino",
+    "Aggiungi la passata e cuoci 2 ore a fuoco basso",
+    "Condisci le tagliatelle con il ragù"
+   ],
+   "tip": "Più cuoce piano, più il ragù è buono."
+  },
+  {
+   "id": "r_trofie-al-pesto",
+   "nome": "Trofie al Pesto",
+   "img": "foto/trofie-al-pesto.jpg",
+   "cat": "Primo - Liguria",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Trofie","q":320,"u":"g"},
+    {"n":"Basilico","q":80,"u":"g"},
+    {"n":"Pinoli","q":30,"u":"g"},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Pecorino","q":30,"u":"g"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Olio EVO","q":100,"u":"ml"},
+    {"n":"Patate","q":150,"u":"g"},
+    {"n":"Fagiolini","q":150,"u":"g"}
+   ],
+   "pas": [
+    "Prepara il pesto con basilico, aglio, pinoli, formaggi e olio",
+    "Lessa patate e fagiolini a pezzetti",
+    "Aggiungi la pasta e cuoci tutto insieme",
+    "Condisci con il pesto fuori dal fuoco"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-e-fagioli",
+   "nome": "Pasta e Fagioli",
+   "img": "foto/pasta-e-fagioli.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 40,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Pasta mista","q":250,"u":"g"},
+    {"n":"Fagioli borlotti cotti","q":400,"u":"g"},
+    {"n":"Passata di pomodoro","q":150,"u":"ml"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Prepara il soffritto di verdure",
+    "Aggiungi fagioli, passata e acqua e cuoci 15 minuti in pentola a pressione",
+    "Apri, aggiungi la pasta e cuoci a pentola aperta"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-e-ceci",
+   "nome": "Pasta e Ceci",
+   "img": "foto/pasta-e-ceci.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 40,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Ceci cotti","q":400,"u":"g"},
+    {"n":"Pasta corta","q":250,"u":"g"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Pomodori pelati","q":150,"u":"g"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Soffriggi aglio e rosmarino",
+    "Aggiungi ceci, pelati e acqua e cuoci 12 minuti in pentola a pressione",
+    "Frulla metà dei ceci e rimettili in pentola",
+    "Cuoci la pasta nella zuppa"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-alla-genovese",
+   "nome": "Pasta alla Genovese",
+   "img": "foto/pasta-alla-genovese.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 150,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Ziti spezzati","q":320,"u":"g"},
+    {"n":"Cipolle bianche","q":1000,"u":"g"},
+    {"n":"Manzo (muscolo)","q":400,"u":"g"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Vino bianco","q":100,"u":"ml"},
+    {"n":"Parmigiano","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Affetta sottili le cipolle e rosola la carne con carota e sedano",
+    "Aggiungi le cipolle e cuoci 50 minuti in pentola a pressione",
+    "Restringi il sugo a pentola aperta",
+    "Condisci la pasta con la salsa di cipolle"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_orecchiette-alle-cime-di-rapa",
+   "nome": "Orecchiette alle Cime di Rapa",
+   "img": "foto/orecchiette-alle-cime-di-rapa.jpg",
+   "cat": "Primo - Puglia",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Orecchiette","q":320,"u":"g"},
+    {"n":"Cime di rapa","q":600,"u":"g"},
+    {"n":"Acciughe sotto sale","q":4,"u":"pz"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Peperoncino","q":0,"u":""},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Lessa le cime di rapa nella stessa acqua della pasta",
+    "Sciogli le acciughe nell'olio con aglio e peperoncino",
+    "Scola e salta tutto insieme"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pizzoccheri-della-valtellina",
+   "nome": "Pizzoccheri della Valtellina",
+   "img": "foto/pizzoccheri-della-valtellina.jpg",
+   "cat": "Primo - Lombardia",
+   "tempo": 50,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pizzoccheri","q":320,"u":"g"},
+    {"n":"Patate","q":250,"u":"g"},
+    {"n":"Verza","q":250,"u":"g"},
+    {"n":"Casera o Bitto","q":200,"u":"g"},
+    {"n":"Burro","q":60,"u":"g"},
+    {"n":"Salvia","q":0,"u":""},
+    {"n":"Aglio","q":1,"u":"spicchi"}
+   ],
+   "pas": [
+    "Lessa patate e verza, poi aggiungi i pizzoccheri",
+    "Scola e alterna strati con il formaggio",
+    "Versa burro fuso con aglio e salvia"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_tortellini-in-brodo",
+   "nome": "Tortellini in Brodo",
+   "img": "foto/tortellini-in-brodo.jpg",
+   "cat": "Primo - Emilia-Romagna",
+   "tempo": 45,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Tortellini freschi","q":400,"u":"g"},
+    {"n":"Brodo di carne","q":1.5,"u":"l"},
+    {"n":"Parmigiano","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Porta a bollore il brodo",
+    "Cuoci i tortellini 4-5 minuti",
+    "Servi con parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_gnocchi-alla-sorrentina",
+   "nome": "Gnocchi alla Sorrentina",
+   "img": "foto/gnocchi-alla-sorrentina.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 35,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Gnocchi di patate","q":600,"u":"g"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Mozzarella","q":250,"u":"g"},
+    {"n":"Parmigiano","q":40,"u":"g"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Prepara un sugo veloce con passata e olio",
+    "Lessa gli gnocchi finché vengono a galla",
+    "Mescola con sugo e mozzarella a cubetti",
+    "Gratina a 200°C per 10 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_gnocchi-al-gorgonzola",
+   "nome": "Gnocchi al Gorgonzola",
+   "img": "foto/gnocchi-al-gorgonzola.jpg",
+   "cat": "Primo - Piemonte",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Gnocchi di patate","q":600,"u":"g"},
+    {"n":"Gorgonzola","q":200,"u":"g"},
+    {"n":"Panna","q":100,"u":"ml"},
+    {"n":"Noci","q":30,"u":"g"}
+   ],
+   "pas": [
+    "Sciogli il gorgonzola con la panna a fuoco basso",
+    "Lessa gli gnocchi",
+    "Condisci e finisci con le noci"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_risotto-alla-milanese",
+   "nome": "Risotto alla Milanese",
+   "img": "foto/risotto-alla-milanese.jpg",
+   "cat": "Primo - Lombardia",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Carnaroli","q":320,"u":"g"},
+    {"n":"Zafferano","q":1,"u":"bustina"},
+    {"n":"Brodo di carne","q":1,"u":"l"},
+    {"n":"Cipolla piccola","q":1,"u":"pz"},
+    {"n":"Burro","q":50,"u":"g"},
+    {"n":"Parmigiano","q":60,"u":"g"},
+    {"n":"Vino bianco","q":60,"u":"ml"}
+   ],
+   "pas": [
+    "Soffriggi la cipolla nel burro e tosta il riso",
+    "Sfuma con il vino e aggiungi il brodo man mano",
+    "A metà cottura unisci lo zafferano",
+    "Manteca con burro e parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_risotto-ai-frutti-di-mare",
+   "nome": "Risotto ai Frutti di Mare",
+   "img": "foto/risotto-ai-frutti-di-mare.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Carnaroli","q":320,"u":"g"},
+    {"n":"Cozze","q":400,"u":"g"},
+    {"n":"Vongole","q":400,"u":"g"},
+    {"n":"Gamberi","q":200,"u":"g"},
+    {"n":"Calamari","q":200,"u":"g"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Vino bianco","q":80,"u":"ml"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Apri cozze e vongole in padella e filtra il liquido",
+    "Rosola gli altri frutti di mare con l'aglio",
+    "Tosta il riso, sfuma e cuoci con il liquido filtrato e acqua calda",
+    "Unisci i frutti di mare a fine cottura"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_risotto-agli-asparagi",
+   "nome": "Risotto agli Asparagi",
+   "img": "foto/risotto-agli-asparagi.jpg",
+   "cat": "Primo - Veneto",
+   "tempo": 35,
+   "app": "Bimby",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Carnaroli","q":320,"u":"g"},
+    {"n":"Asparagi","q":400,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Brodo vegetale","q":800,"u":"ml"},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Burro","q":30,"u":"g"}
+   ],
+   "pas": [
+    "Soffritto di cipolla e burro: 3 min, 100°C, vel. 1",
+    "Aggiungi riso e punte di asparagi: 3 min, 100°C, vel. 1",
+    "Unisci brodo e gambi: 15 min, 100°C, vel. 1 antiorario",
+    "Manteca con parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_risotto-alla-zucca",
+   "nome": "Risotto alla Zucca",
+   "img": "foto/risotto-alla-zucca.jpg",
+   "cat": "Primo - Lombardia",
+   "tempo": 35,
+   "app": "Bimby",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Carnaroli","q":320,"u":"g"},
+    {"n":"Zucca","q":400,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Brodo vegetale","q":800,"u":"ml"},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Burro","q":30,"u":"g"}
+   ],
+   "pas": [
+    "Soffritto di cipolla e burro: 3 min, 100°C, vel. 1",
+    "Aggiungi zucca e riso: 3 min, 100°C, vel. 1",
+    "Unisci il brodo: 15 min, 100°C, vel. 1 antiorario",
+    "Manteca con parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_minestrone-di-verdure",
+   "nome": "Minestrone di Verdure",
+   "img": "foto/minestrone-di-verdure.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 45,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Patate","q":2,"u":"pz"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Zucchine","q":2,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Fagioli borlotti cotti","q":200,"u":"g"},
+    {"n":"Pomodori","q":2,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Taglia le verdure a dadini e rosola cipolla e olio",
+    "Aggiungi tutto con acqua nella pentola",
+    "Cuoci 15 minuti dal fischio",
+    "Servi con un filo d'olio crudo e parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_ribollita",
+   "nome": "Ribollita",
+   "img": "foto/ribollita.jpg",
+   "cat": "Primo - Toscana",
+   "tempo": 90,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pane toscano raffermo","q":300,"u":"g"},
+    {"n":"Cavolo nero","q":400,"u":"g"},
+    {"n":"Fagioli cannellini cotti","q":400,"u":"g"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Fai un soffritto con le verdure e aggiungi il cavolo nero",
+    "Unisci i fagioli e cuoci 40 minuti",
+    "Aggiungi il pane a fette e mescola",
+    "Servi il giorno dopo ripassata con un filo d'olio"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_stracciatella-alla-romana",
+   "nome": "Stracciatella alla Romana",
+   "img": "foto/stracciatella-alla-romana.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 15,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Brodo di carne","q":1.2,"u":"l"},
+    {"n":"Uova","q":3,"u":"pz"},
+    {"n":"Parmigiano","q":60,"u":"g"},
+    {"n":"Semolino","q":2,"u":"cucchiai"},
+    {"n":"Noce moscata","q":0,"u":""}
+   ],
+   "pas": [
+    "Sbatti uova, parmigiano e semolino",
+    "Versa nel brodo bollente mescolando",
+    "Cuoci 3 minuti finché si formano i fiocchi"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-con-le-sarde",
+   "nome": "Pasta con le Sarde",
+   "img": "foto/pasta-con-le-sarde.jpg",
+   "cat": "Primo - Sicilia",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Bucatini","q":320,"u":"g"},
+    {"n":"Sarde fresche","q":400,"u":"g"},
+    {"n":"Finocchietto selvatico","q":200,"u":"g"},
+    {"n":"Uvetta","q":30,"u":"g"},
+    {"n":"Pinoli","q":30,"u":"g"},
+    {"n":"Acciughe sotto sale","q":2,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Pangrattato","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Soffriggi cipolla e acciughe, aggiungi le sarde",
+    "Unisci finocchietto lessato, uvetta e pinoli",
+    "Cuoci la pasta nell'acqua del finocchietto",
+    "Condisci e cospargi di pangrattato tostato"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_spaghetti-alla-nerano",
+   "nome": "Spaghetti alla Nerano",
+   "img": "foto/spaghetti-alla-nerano.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Zucchine","q":600,"u":"g"},
+    {"n":"Provolone del Monaco","q":100,"u":"g"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Olio di semi","q":200,"u":"ml"}
+   ],
+   "pas": [
+    "Friggi le zucchine a rondelle e salale",
+    "Cuoci gli spaghetti a metà e finisci nel condimento",
+    "Manteca con il provolone e il basilico"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_linguine-allo-scoglio",
+   "nome": "Linguine allo Scoglio",
+   "img": "foto/linguine-allo-scoglio.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Linguine","q":320,"u":"g"},
+    {"n":"Cozze","q":300,"u":"g"},
+    {"n":"Vongole","q":300,"u":"g"},
+    {"n":"Gamberi","q":200,"u":"g"},
+    {"n":"Calamari","q":200,"u":"g"},
+    {"n":"Pomodorini","q":200,"u":"g"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Vino bianco","q":80,"u":"ml"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Apri cozze e vongole con aglio e olio",
+    "Aggiungi calamari, gamberi e pomodorini",
+    "Cuoci le linguine a metà e termina nel sugo",
+    "Servi con prezzemolo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-al-forno",
+   "nome": "Pasta al Forno",
+   "img": "foto/pasta-al-forno.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 60,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Rigatoni","q":350,"u":"g"},
+    {"n":"Ragù di carne","q":400,"u":"g"},
+    {"n":"Mozzarella","q":200,"u":"g"},
+    {"n":"Prosciutto cotto","q":100,"u":"g"},
+    {"n":"Uova sode","q":2,"u":"pz"},
+    {"n":"Parmigiano","q":60,"u":"g"}
+   ],
+   "pas": [
+    "Cuoci i rigatoni 3 minuti meno del tempo indicato",
+    "Mescola con ragù, mozzarella, prosciutto e uova a pezzi",
+    "Cospargi di parmigiano",
+    "Cuoci a 190°C per 25 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_cannelloni-ricotta-e-spinaci",
+   "nome": "Cannelloni Ricotta e Spinaci",
+   "img": "foto/cannelloni-ricotta-e-spinaci.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 60,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Cannelloni","q":250,"u":"g"},
+    {"n":"Ricotta","q":300,"u":"g"},
+    {"n":"Spinaci","q":300,"u":"g"},
+    {"n":"Besciamella","q":400,"u":"ml"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Parmigiano","q":60,"u":"g"}
+   ],
+   "pas": [
+    "Salta gli spinaci e mescolali con ricotta e parmigiano",
+    "Riempi i cannelloni",
+    "Disponili in teglia con passata e besciamella",
+    "Cuoci a 180°C per 30 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_strozzapreti-salsiccia-e-funghi",
+   "nome": "Strozzapreti Salsiccia e Funghi",
+   "img": "foto/strozzapreti-salsiccia-e-funghi.jpg",
+   "cat": "Primo - Romagna",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Strozzapreti","q":320,"u":"g"},
+    {"n":"Salsiccia","q":250,"u":"g"},
+    {"n":"Funghi champignon","q":250,"u":"g"},
+    {"n":"Panna","q":100,"u":"ml"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Parmigiano","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Rosola la salsiccia sbriciolata con la cipolla",
+    "Aggiungi i funghi e cuoci 10 minuti",
+    "Unisci la panna e manteca con la pasta"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_tagliolini-al-tartufo",
+   "nome": "Tagliolini al Tartufo",
+   "img": "foto/tagliolini-al-tartufo.jpg",
+   "cat": "Primo - Piemonte",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Tagliolini freschi","q":350,"u":"g"},
+    {"n":"Tartufo nero","q":30,"u":"g"},
+    {"n":"Burro","q":60,"u":"g"},
+    {"n":"Parmigiano","q":50,"u":"g"}
+   ],
+   "pas": [
+    "Cuoci i tagliolini 2-3 minuti",
+    "Manteca con burro, parmigiano e acqua di cottura",
+    "Completa con il tartufo a lamelle"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pici-all-aglione",
+   "nome": "Pici all'Aglione",
+   "img": "foto/pici-all-aglione.jpg",
+   "cat": "Primo - Toscana",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pici","q":320,"u":"g"},
+    {"n":"Pomodori pelati","q":500,"u":"g"},
+    {"n":"Aglio","q":6,"u":"spicchi"},
+    {"n":"Peperoncino","q":0,"u":""},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Soffriggi lentamente l'aglio",
+    "Aggiungi i pelati e cuoci 20 minuti",
+    "Condisci i pici"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pappardelle-al-cinghiale",
+   "nome": "Pappardelle al Cinghiale",
+   "img": "foto/pappardelle-al-cinghiale.jpg",
+   "cat": "Primo - Toscana",
+   "tempo": 180,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pappardelle","q":320,"u":"g"},
+    {"n":"Polpa di cinghiale","q":400,"u":"g"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Vino rosso","q":200,"u":"ml"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Alloro","q":0,"u":""}
+   ],
+   "pas": [
+    "Fai un soffritto e rosola il cinghiale a pezzetti",
+    "Sfuma col vino, aggiungi passata e alloro",
+    "Cuoci a lungo per 2 ore e mezza",
+    "Condisci le pappardelle"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_ravioli-ricotta-e-spinaci",
+   "nome": "Ravioli Ricotta e Spinaci",
+   "img": "foto/ravioli-ricotta-e-spinaci.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Ravioli ricotta e spinaci","q":400,"u":"g"},
+    {"n":"Burro","q":60,"u":"g"},
+    {"n":"Salvia","q":0,"u":""},
+    {"n":"Parmigiano","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Cuoci i ravioli in abbondante acqua salata",
+    "Sciogli il burro con la salvia",
+    "Condisci e servi con parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_tortelli-di-zucca",
+   "nome": "Tortelli di Zucca",
+   "img": "foto/tortelli-di-zucca.jpg",
+   "cat": "Primo - Lombardia",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Tortelli di zucca","q":400,"u":"g"},
+    {"n":"Burro","q":70,"u":"g"},
+    {"n":"Salvia","q":0,"u":""},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Amaretti","q":20,"u":"g"}
+   ],
+   "pas": [
+    "Lessa i tortelli delicatamente",
+    "Prepara burro e salvia",
+    "Condisci con parmigiano e amaretti sbriciolati"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_bigoli-in-salsa",
+   "nome": "Bigoli in Salsa",
+   "img": "foto/bigoli-in-salsa.jpg",
+   "cat": "Primo - Veneto",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Bigoli","q":320,"u":"g"},
+    {"n":"Acciughe sotto sale","q":6,"u":"pz"},
+    {"n":"Cipolla","q":2,"u":"pz"},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"},
+    {"n":"Pepe nero","q":0,"u":""}
+   ],
+   "pas": [
+    "Fai stufare a lungo la cipolla in poco olio",
+    "Sciogli le acciughe nel soffritto",
+    "Condisci i bigoli con la salsa"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_busiate-al-pesto-trapanese",
+   "nome": "Busiate al Pesto Trapanese",
+   "img": "foto/busiate-al-pesto-trapanese.jpg",
+   "cat": "Primo - Sicilia",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Busiate","q":320,"u":"g"},
+    {"n":"Pomodori ramati","q":400,"u":"g"},
+    {"n":"Basilico","q":40,"u":"g"},
+    {"n":"Mandorle","q":50,"u":"g"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Pecorino","q":40,"u":"g"},
+    {"n":"Olio EVO","q":5,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Frulla pomodori, basilico, mandorle, aglio e olio",
+    "Cuoci le busiate al dente",
+    "Condisci a crudo con il pecorino"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_spaghetti-alla-carrettiera",
+   "nome": "Spaghetti alla Carrettiera",
+   "img": "foto/spaghetti-alla-carrettiera.jpg",
+   "cat": "Primo - Sicilia",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Spaghetti","q":320,"u":"g"},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Pecorino","q":60,"u":"g"},
+    {"n":"Pepe nero","q":0,"u":""},
+    {"n":"Olio EVO","q":5,"u":"cucchiai"},
+    {"n":"Peperoncino","q":0,"u":""}
+   ],
+   "pas": [
+    "Dora l'aglio con il peperoncino nell'olio",
+    "Cuoci gli spaghetti al dente",
+    "Manteca con pecorino e pepe"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-con-broccoli-e-salsiccia",
+   "nome": "Pasta con Broccoli e Salsiccia",
+   "img": "foto/pasta-con-broccoli-e-salsiccia.jpg",
+   "cat": "Primo - Sud Italia",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Orecchiette","q":320,"u":"g"},
+    {"n":"Broccoli","q":400,"u":"g"},
+    {"n":"Salsiccia","q":250,"u":"g"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Peperoncino","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Lessa i broccoli nell'acqua della pasta",
+    "Rosola la salsiccia sbriciolata con l'aglio",
+    "Salta tutto insieme"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-alla-zozzona",
+   "nome": "Pasta alla Zozzona",
+   "img": "foto/pasta-alla-zozzona.jpg",
+   "cat": "Primo - Lazio",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Rigatoni","q":320,"u":"g"},
+    {"n":"Guanciale","q":120,"u":"g"},
+    {"n":"Salsiccia","q":150,"u":"g"},
+    {"n":"Uova","q":3,"u":"pz"},
+    {"n":"Pecorino romano","q":60,"u":"g"},
+    {"n":"Passata di pomodoro","q":100,"u":"ml"}
+   ],
+   "pas": [
+    "Rosola guanciale e salsiccia",
+    "Aggiungi un poco di passata",
+    "Cuoci la pasta e manteca con uova e pecorino fuori dal fuoco"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pasta-e-patate-con-provola",
+   "nome": "Pasta e Patate con Provola",
+   "img": "foto/pasta-e-patate-con-provola.jpg",
+   "cat": "Primo - Campania",
+   "tempo": 45,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Pasta mista","q":250,"u":"g"},
+    {"n":"Patate","q":600,"u":"g"},
+    {"n":"Provola","q":150,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Pomodori pelati","q":100,"u":"g"},
+    {"n":"Parmigiano","q":30,"u":"g"}
+   ],
+   "pas": [
+    "Soffriggi la cipolla, aggiungi patate e pelati",
+    "Cuoci 10 minuti in pentola a pressione con poca acqua",
+    "Aggiungi la pasta e finisci a pentola aperta",
+    "Unisci la provola a cubetti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_farfalle-al-salmone",
+   "nome": "Farfalle al Salmone",
+   "img": "foto/farfalle-al-salmone.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Farfalle","q":320,"u":"g"},
+    {"n":"Salmone affumicato","q":150,"u":"g"},
+    {"n":"Panna","q":150,"u":"ml"},
+    {"n":"Scalogno","q":1,"u":"pz"},
+    {"n":"Vino bianco","q":30,"u":"ml"}
+   ],
+   "pas": [
+    "Soffriggi lo scalogno e sfuma col vino",
+    "Aggiungi panna e salmone a striscioline",
+    "Condisci la pasta"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_penne-alla-vodka",
+   "nome": "Penne alla Vodka",
+   "img": "foto/penne-alla-vodka.jpg",
+   "cat": "Primo - Italia",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Penne","q":320,"u":"g"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Panna","q":100,"u":"ml"},
+    {"n":"Pancetta","q":100,"u":"g"},
+    {"n":"Vodka","q":40,"u":"ml"},
+    {"n":"Cipolla","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Rosola pancetta e cipolla",
+    "Sfuma con la vodka, aggiungi la passata e cuoci 10 minuti",
+    "Unisci la panna e la pasta"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_risotto-al-radicchio",
+   "nome": "Risotto al Radicchio",
+   "img": "foto/risotto-al-radicchio.jpg",
+   "cat": "Primo - Veneto",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Carnaroli","q":320,"u":"g"},
+    {"n":"Radicchio rosso","q":300,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Brodo vegetale","q":1,"u":"l"},
+    {"n":"Vino rosso","q":80,"u":"ml"},
+    {"n":"Parmigiano","q":50,"u":"g"}
+   ],
+   "pas": [
+    "Stufa cipolla e radicchio",
+    "Tosta il riso e sfuma col vino",
+    "Cuoci con brodo caldo per 16 minuti",
+    "Manteca con parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_canederli-in-brodo",
+   "nome": "Canederli in Brodo",
+   "img": "foto/canederli-in-brodo.jpg",
+   "cat": "Primo - Trentino-Alto Adige",
+   "tempo": 50,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pane raffermo","q":300,"u":"g"},
+    {"n":"Speck","q":100,"u":"g"},
+    {"n":"Latte","q":200,"u":"ml"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Brodo di carne","q":1.5,"u":"l"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Ammolla il pane nel latte e mescola con speck, uova, farina e prezzemolo",
+    "Forma delle palle",
+    "Cuoci 15 minuti nel brodo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_orzotto-ai-funghi",
+   "nome": "Orzotto ai Funghi",
+   "img": "foto/orzotto-ai-funghi.jpg",
+   "cat": "Primo - Friuli-Venezia Giulia",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Orzo perlato","q":300,"u":"g"},
+    {"n":"Funghi misti","q":300,"u":"g"},
+    {"n":"Brodo vegetale","q":1,"u":"l"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Soffriggi la cipolla e tosta l'orzo",
+    "Aggiungi i funghi e il brodo man mano",
+    "Cuoci 30 minuti e manteca con parmigiano"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_polenta-con-ragu-di-salsiccia",
+   "nome": "Polenta con Ragù di Salsiccia",
+   "img": "foto/polenta-con-ragu-di-salsiccia.jpg",
+   "cat": "Primo - Nord Italia",
+   "tempo": 60,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Farina di mais per polenta","q":300,"u":"g"},
+    {"n":"Salsiccia","q":400,"u":"g"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Vino rosso","q":100,"u":"ml"},
+    {"n":"Formaggio grattugiato","q":50,"u":"g"}
+   ],
+   "pas": [
+    "Prepara il ragù rosolando salsiccia e cipolla, poi aggiungi vino e passata",
+    "Cuoci la polenta mescolando per 40 minuti",
+    "Servi la polenta con il ragù"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_passatelli-in-brodo",
+   "nome": "Passatelli in Brodo",
+   "img": "foto/passatelli-in-brodo.jpg",
+   "cat": "Primo - Emilia-Romagna",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pangrattato","q":150,"u":"g"},
+    {"n":"Parmigiano","q":150,"u":"g"},
+    {"n":"Uova","q":3,"u":"pz"},
+    {"n":"Noce moscata","q":0,"u":""},
+    {"n":"Brodo di carne","q":1.5,"u":"l"}
+   ],
+   "pas": [
+    "Impasta pangrattato, parmigiano, uova e noce moscata",
+    "Passa l'impasto nello schiacciapatate direttamente nel brodo bollente",
+    "Cuoci 2-3 minuti"
+   ],
+   "tip": ""
   },
   {
    "id": "b_frittatadizucchine",
    "nome": "Frittata di Zucchine",
-   "tempo": 20,
-   "cat": "Piatto unico",
-   "app": "Fornello",
    "img": "foto/frittata-di-zucchine.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 20,
+   "app": "Fornello",
    "por": 4,
-   "tip": "",
    "ing": [
-    {
-     "n": "Uova",
-     "q": 8,
-     "u": "pz"
-    },
-    {
-     "n": "Zucchine",
-     "q": 400,
-     "u": "g"
-    },
-    {
-     "n": "Parmigiano",
-     "q": 60,
-     "u": "g"
-    },
-    {
-     "n": "Olio EVO",
-     "q": 2,
-     "u": "cucchiai"
-    },
-    {
-     "n": "Sale",
-     "q": 0,
-     "u": ""
-    }
+    {"n":"Uova","q":8,"u":"pz"},
+    {"n":"Zucchine","q":400,"u":"g"},
+    {"n":"Parmigiano","q":60,"u":"g"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"},
+    {"n":"Sale","q":0,"u":""}
    ],
    "pas": [
-    "Salta le zucchine in padella per 6 minuti.",
-    "Sbatti le uova con parmigiano e sale e uniscile.",
-    "Cuoci coperta 5 minuti per lato."
-   ]
+    "Salta le zucchine in padella per 6 minuti",
+    "Sbatti le uova con parmigiano e sale e uniscile",
+    "Cuoci coperta 5 minuti per lato"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_cotoletta-alla-milanese",
+   "nome": "Cotoletta alla Milanese",
+   "img": "foto/cotoletta-alla-milanese.jpg",
+   "cat": "Secondo - Lombardia",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Costolette di vitello","q":4,"u":"pz"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Pangrattato","q":150,"u":"g"},
+    {"n":"Burro chiarificato","q":80,"u":"g"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Sale","q":0,"u":""}
+   ],
+   "pas": [
+    "Batti leggermente le costolette",
+    "Passale in uovo e pangrattato",
+    "Friggi nel burro 3-4 minuti per lato",
+    "Servi con limone"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_ossobuco-alla-milanese",
+   "nome": "Ossobuco alla Milanese",
+   "img": "foto/ossobuco-alla-milanese.jpg",
+   "cat": "Secondo - Lombardia",
+   "tempo": 120,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Ossibuchi di vitello","q":4,"u":"pz"},
+    {"n":"Farina","q":30,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Vino bianco","q":150,"u":"ml"},
+    {"n":"Brodo di carne","q":300,"u":"ml"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Infarina e rosola gli ossibuchi",
+    "Aggiungi verdure, vino e brodo",
+    "Cuoci 40 minuti in pentola a pressione",
+    "Servi con la gremolada di limone, aglio e prezzemolo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_saltimbocca-alla-romana",
+   "nome": "Saltimbocca alla Romana",
+   "img": "foto/saltimbocca-alla-romana.jpg",
+   "cat": "Secondo - Lazio",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Fettine di vitello","q":8,"u":"pz"},
+    {"n":"Prosciutto crudo","q":8,"u":"fette"},
+    {"n":"Salvia","q":0,"u":""},
+    {"n":"Burro","q":40,"u":"g"},
+    {"n":"Vino bianco","q":80,"u":"ml"},
+    {"n":"Farina","q":20,"u":"g"}
+   ],
+   "pas": [
+    "Copri ogni fettina con prosciutto e salvia fermandoli con uno stecchino",
+    "Rosola nel burro 2 minuti per lato",
+    "Sfuma con il vino e restringi la salsa"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_arrosticini-abruzzesi",
+   "nome": "Arrosticini Abruzzesi",
+   "img": "foto/arrosticini-abruzzesi.jpg",
+   "cat": "Secondo - Abruzzo",
+   "tempo": 20,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Carne di pecora a cubetti (arrosticini)","q":800,"u":"g"},
+    {"n":"Sale grosso","q":0,"u":""},
+    {"n":"Olio EVO","q":1,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Cuoci sulla griglia ben calda girando spesso",
+    "Sala a fine cottura",
+    "Servi subito"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_bistecca-alla-fiorentina",
+   "nome": "Bistecca alla Fiorentina",
+   "img": "foto/bistecca-alla-fiorentina.jpg",
+   "cat": "Secondo - Toscana",
+   "tempo": 25,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Costata di manzo","q":1.2,"u":"kg"},
+    {"n":"Sale grosso","q":0,"u":""},
+    {"n":"Pepe nero","q":0,"u":""},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Porta la carne a temperatura ambiente",
+    "Griglia 5 minuti per lato su brace ardente",
+    "Lascia riposare 5 minuti e sala",
+    "Servi con un filo d'olio e pepe"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_melanzane-alla-parmigiana",
+   "nome": "Melanzane alla Parmigiana",
+   "img": "foto/melanzane-alla-parmigiana.jpg",
+   "cat": "Secondo - Campania",
+   "tempo": 75,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Melanzane","q":1000,"u":"g"},
+    {"n":"Passata di pomodoro","q":500,"u":"ml"},
+    {"n":"Mozzarella","q":300,"u":"g"},
+    {"n":"Parmigiano","q":80,"u":"g"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Griglia o friggi le melanzane a fette",
+    "Prepara un sugo semplice con il basilico",
+    "Alterna strati di melanzane, sugo, mozzarella e parmigiano",
+    "Cuoci a 180°C per 35 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_polpette-al-sugo",
+   "nome": "Polpette al Sugo",
+   "img": "foto/polpette-al-sugo.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 50,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Macinato misto","q":500,"u":"g"},
+    {"n":"Pane raffermo","q":80,"u":"g"},
+    {"n":"Latte","q":80,"u":"ml"},
+    {"n":"Uova","q":1,"u":"pz"},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Passata di pomodoro","q":500,"u":"ml"},
+    {"n":"Aglio","q":1,"u":"spicchi"}
+   ],
+   "pas": [
+    "Impasta carne, pane ammollato, uovo e parmigiano",
+    "Forma le polpette e rosolale",
+    "Cuoci 25 minuti nel sugo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_involtini-di-carne-al-sugo",
+   "nome": "Involtini di Carne al Sugo",
+   "img": "foto/involtini-di-carne-al-sugo.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 60,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Fettine di manzo","q":8,"u":"pz"},
+    {"n":"Prosciutto cotto","q":8,"u":"fette"},
+    {"n":"Provola","q":120,"u":"g"},
+    {"n":"Passata di pomodoro","q":500,"u":"ml"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Vino bianco","q":80,"u":"ml"}
+   ],
+   "pas": [
+    "Farcisci le fettine con prosciutto e provola e arrotolale",
+    "Rosola con la cipolla e sfuma",
+    "Cuoci 30 minuti nel sugo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-alla-cacciatora",
+   "nome": "Pollo alla Cacciatora",
+   "img": "foto/pollo-alla-cacciatora.jpg",
+   "cat": "Secondo - Toscana",
+   "tempo": 60,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pollo a pezzi","q":1.2,"u":"kg"},
+    {"n":"Pomodori pelati","q":300,"u":"g"},
+    {"n":"Vino rosso","q":100,"u":"ml"},
+    {"n":"Olive nere","q":50,"u":"g"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Aglio","q":2,"u":"spicchi"}
+   ],
+   "pas": [
+    "Rosola il pollo con aglio e rosmarino",
+    "Sfuma col vino, aggiungi pelati e olive",
+    "Cuoci coperto 40 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-alla-diavola",
+   "nome": "Pollo alla Diavola",
+   "img": "foto/pollo-alla-diavola.jpg",
+   "cat": "Secondo - Toscana",
+   "tempo": 45,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Pollo aperto a libro","q":1.2,"u":"kg"},
+    {"n":"Peperoncino","q":2,"u":"cucchiaini"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"},
+    {"n":"Pepe nero","q":0,"u":""}
+   ],
+   "pas": [
+    "Appiattisci il pollo e marinalo con olio, limone e peperoncino",
+    "Griglia 20 minuti per lato a calore medio",
+    "Lascia riposare 5 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-ai-peperoni",
+   "nome": "Pollo ai Peperoni",
+   "img": "foto/pollo-ai-peperoni.jpg",
+   "cat": "Secondo - Lazio",
+   "tempo": 45,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pollo a pezzi","q":1,"u":"kg"},
+    {"n":"Peperoni","q":3,"u":"pz"},
+    {"n":"Pomodori pelati","q":200,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Vino bianco","q":80,"u":"ml"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Rosola il pollo",
+    "Aggiungi cipolla e peperoni a strisce",
+    "Sfuma, unisci i pelati e cuoci 35 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-arrosto-con-patate",
+   "nome": "Pollo Arrosto con Patate",
+   "img": "foto/pollo-arrosto-con-patate.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 75,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Pollo intero","q":1.5,"u":"kg"},
+    {"n":"Patate","q":800,"u":"g"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Condisci il pollo con olio, aglio, rosmarino e limone",
+    "Disponi le patate nella teglia",
+    "Cuoci a 200°C per 70 minuti irrorando di tanto in tanto"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_vitello-tonnato",
+   "nome": "Vitello Tonnato",
+   "img": "foto/vitello-tonnato.jpg",
+   "cat": "Secondo - Piemonte",
+   "tempo": 90,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Girello di vitello","q":800,"u":"g"},
+    {"n":"Tonno sott'olio","q":200,"u":"g"},
+    {"n":"Maionese","q":150,"u":"g"},
+    {"n":"Capperi","q":30,"u":"g"},
+    {"n":"Acciughe sotto sale","q":3,"u":"pz"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"}
+   ],
+   "pas": [
+    "Lessa il vitello con le verdure e lascialo raffreddare nel brodo",
+    "Frulla tonno, acciughe, capperi e maionese",
+    "Affetta il vitello e coprilo con la salsa"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_brasato-al-barolo",
+   "nome": "Brasato al Barolo",
+   "img": "foto/brasato-al-barolo.jpg",
+   "cat": "Secondo - Piemonte",
+   "tempo": 150,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Manzo (cappello del prete)","q":1,"u":"kg"},
+    {"n":"Vino rosso Barolo","q":500,"u":"ml"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Alloro","q":0,"u":""},
+    {"n":"Burro","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Marina la carne col vino e le verdure per una notte",
+    "Rosola la carne e aggiungi la marinata filtrata",
+    "Cuoci 60 minuti in pentola a pressione",
+    "Frulla il sugo e servilo con la carne a fette"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_spezzatino-con-patate",
+   "nome": "Spezzatino con Patate",
+   "img": "foto/spezzatino-con-patate.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 60,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Manzo a cubetti","q":800,"u":"g"},
+    {"n":"Patate","q":500,"u":"g"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Vino rosso","q":100,"u":"ml"}
+   ],
+   "pas": [
+    "Rosola la carne con cipolla e carota",
+    "Sfuma, aggiungi passata e acqua",
+    "Cuoci 25 minuti in pentola a pressione",
+    "Aggiungi le patate e cuoci altri 10 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_trippa-alla-romana",
+   "nome": "Trippa alla Romana",
+   "img": "foto/trippa-alla-romana.jpg",
+   "cat": "Secondo - Lazio",
+   "tempo": 60,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Trippa pulita","q":1,"u":"kg"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Menta romana","q":0,"u":""},
+    {"n":"Pecorino romano","q":60,"u":"g"}
+   ],
+   "pas": [
+    "Rosola il soffritto di verdure",
+    "Aggiungi la trippa a listarelle e la passata",
+    "Cuoci 30 minuti in pentola a pressione",
+    "Servi con pecorino e menta"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_baccala-alla-livornese",
+   "nome": "Baccalà alla Livornese",
+   "img": "foto/baccala-alla-livornese.jpg",
+   "cat": "Secondo - Toscana",
+   "tempo": 45,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Baccalà dissalato","q":800,"u":"g"},
+    {"n":"Pomodori pelati","q":400,"u":"g"},
+    {"n":"Olive nere","q":60,"u":"g"},
+    {"n":"Capperi","q":20,"u":"g"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Infarina e rosola il baccalà",
+    "Prepara il sugo con aglio, pelati, olive e capperi",
+    "Cuoci il baccalà nel sugo per 20 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_sarde-a-beccafico",
+   "nome": "Sarde a Beccafico",
+   "img": "foto/sarde-a-beccafico.jpg",
+   "cat": "Secondo - Sicilia",
+   "tempo": 45,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Sarde fresche","q":600,"u":"g"},
+    {"n":"Pangrattato","q":100,"u":"g"},
+    {"n":"Uvetta","q":30,"u":"g"},
+    {"n":"Pinoli","q":30,"u":"g"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Alloro","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Apri le sarde a libro",
+    "Farciscile con pangrattato condito, uvetta e pinoli e arrotolale",
+    "Disponile con foglie d'alloro e cuoci a 190°C per 15 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_orata-al-cartoccio",
+   "nome": "Orata al Cartoccio",
+   "img": "foto/orata-al-cartoccio.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 35,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Orate","q":2,"u":"pz"},
+    {"n":"Pomodorini","q":200,"u":"g"},
+    {"n":"Olive taggiasche","q":40,"u":"g"},
+    {"n":"Capperi","q":20,"u":"g"},
+    {"n":"Prezzemolo","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Metti il pesce sulla carta forno con pomodorini, olive e capperi",
+    "Chiudi il cartoccio",
+    "Cuoci a 190°C per 25 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_branzino-al-sale",
+   "nome": "Branzino al Sale",
+   "img": "foto/branzino-al-sale.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 45,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Branzini","q":2,"u":"pz"},
+    {"n":"Sale grosso","q":1.5,"u":"kg"},
+    {"n":"Albumi","q":2,"u":"pz"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Farcisci i branzini con rosmarino e limone",
+    "Copri con sale grosso mescolato agli albumi",
+    "Cuoci a 200°C per 30 minuti",
+    "Rompi la crosta e servi"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_calamari-fritti",
+   "nome": "Calamari Fritti",
+   "img": "foto/calamari-fritti.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 25,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Calamari","q":600,"u":"g"},
+    {"n":"Farina","q":60,"u":"g"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Sale","q":0,"u":""}
+   ],
+   "pas": [
+    "Pulisci i calamari e tagliali ad anelli",
+    "Infarinali e spruzza d'olio",
+    "Cuoci a 200°C per 8-10 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_fritto-misto-di-pesce",
+   "nome": "Fritto Misto di Pesce",
+   "img": "foto/fritto-misto-di-pesce.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 30,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Calamari","q":300,"u":"g"},
+    {"n":"Gamberi","q":300,"u":"g"},
+    {"n":"Acciughe fresche","q":200,"u":"g"},
+    {"n":"Farina","q":80,"u":"g"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Infarina il pesce",
+    "Spruzza con olio",
+    "Cuoci a 200°C per 10 minuti agitando il cestello"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_gamberi-alla-griglia",
+   "nome": "Gamberi alla Griglia",
+   "img": "foto/gamberi-alla-griglia.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 15,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Gamberoni","q":700,"u":"g"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Prezzemolo","q":0,"u":""},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Marina i gamberi con olio, aglio e prezzemolo",
+    "Griglia 3 minuti per lato",
+    "Servi con limone"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_sogliola-alla-mugnaia",
+   "nome": "Sogliola alla Mugnaia",
+   "img": "foto/sogliola-alla-mugnaia.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Sogliole","q":4,"u":"pz"},
+    {"n":"Farina","q":50,"u":"g"},
+    {"n":"Burro","q":60,"u":"g"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Infarina le sogliole",
+    "Cuoci nel burro 4 minuti per lato",
+    "Servi con burro fuso, limone e prezzemolo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_involtini-di-pesce-spada",
+   "nome": "Involtini di Pesce Spada",
+   "img": "foto/involtini-di-pesce-spada.jpg",
+   "cat": "Secondo - Sicilia",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Pesce spada a fette sottili","q":600,"u":"g"},
+    {"n":"Pangrattato","q":80,"u":"g"},
+    {"n":"Capperi","q":20,"u":"g"},
+    {"n":"Olive","q":40,"u":"g"},
+    {"n":"Pecorino","q":30,"u":"g"},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Condisci il pangrattato con capperi, olive e pecorino",
+    "Farcisci le fette e arrotolale",
+    "Cuoci in padella 10 minuti con un filo d'olio e limone"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_polpo-alla-luciana",
+   "nome": "Polpo alla Luciana",
+   "img": "foto/polpo-alla-luciana.jpg",
+   "cat": "Secondo - Campania",
+   "tempo": 60,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Polpo","q":1,"u":"kg"},
+    {"n":"Pomodori pelati","q":400,"u":"g"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Olive nere","q":50,"u":"g"},
+    {"n":"Capperi","q":20,"u":"g"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Soffriggi l'aglio e unisci i pelati",
+    "Aggiungi il polpo a pezzi con olive e capperi",
+    "Cuoci coperto 45 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_impepata-di-cozze",
+   "nome": "Impepata di Cozze",
+   "img": "foto/impepata-di-cozze.jpg",
+   "cat": "Secondo - Campania",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Cozze","q":1.5,"u":"kg"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Pepe nero","q":1,"u":"cucchiaini"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Prezzemolo","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Pulisci le cozze",
+    "Aprile in pentola coperta con aglio e olio",
+    "Servi con pepe abbondante, limone e prezzemolo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_salsiccia-e-friarielli",
+   "nome": "Salsiccia e Friarielli",
+   "img": "foto/salsiccia-e-friarielli.jpg",
+   "cat": "Secondo - Campania",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Salsiccia","q":600,"u":"g"},
+    {"n":"Friarielli (cime di rapa)","q":800,"u":"g"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Peperoncino","q":0,"u":""},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Lessa brevemente i friarielli",
+    "Rosola la salsiccia",
+    "Aggiungi i friarielli con aglio e peperoncino e cuoci 10 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_porchetta",
+   "nome": "Porchetta",
+   "img": "foto/porchetta.jpg",
+   "cat": "Secondo - Lazio",
+   "tempo": 180,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Porchetta di maiale (rollè)","q":1.5,"u":"kg"},
+    {"n":"Finocchietto selvatico","q":0,"u":""},
+    {"n":"Aglio","q":4,"u":"spicchi"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Pepe nero","q":0,"u":""},
+    {"n":"Sale grosso","q":0,"u":""}
+   ],
+   "pas": [
+    "Massaggia la carne con sale, pepe, aglio e finocchietto",
+    "Legala bene",
+    "Cuoci a 150°C per 3 ore, poi 15 minuti a 220°C"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_arista-al-forno",
+   "nome": "Arista al Forno",
+   "img": "foto/arista-al-forno.jpg",
+   "cat": "Secondo - Toscana",
+   "tempo": 90,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Arista di maiale","q":1,"u":"kg"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Vino bianco","q":150,"u":"ml"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Steccala con aglio e rosmarino",
+    "Rosolala in teglia con l'olio",
+    "Cuoci a 180°C per 75 minuti bagnando col vino"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_scottadito-d-abbacchio",
+   "nome": "Scottadito d'Abbacchio",
+   "img": "foto/scottadito-d-abbacchio.jpg",
+   "cat": "Secondo - Lazio",
+   "tempo": 25,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Costolette d'agnello","q":1,"u":"kg"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Marina le costolette con olio, aglio e rosmarino",
+    "Griglia 3-4 minuti per lato",
+    "Servi subito con limone"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_agnello-al-forno-con-patate",
+   "nome": "Agnello al Forno con Patate",
+   "img": "foto/agnello-al-forno-con-patate.jpg",
+   "cat": "Secondo - Lazio",
+   "tempo": 110,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Cosciotto d'agnello","q":1.5,"u":"kg"},
+    {"n":"Patate","q":800,"u":"g"},
+    {"n":"Rosmarino","q":0,"u":""},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Vino bianco","q":100,"u":"ml"},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Condisci l'agnello con aglio e rosmarino",
+    "Disponilo in teglia con le patate",
+    "Cuoci a 180°C per 100 minuti irrorando col vino"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_peposo-alla-fiorentina",
+   "nome": "Peposo alla Fiorentina",
+   "img": "foto/peposo-alla-fiorentina.jpg",
+   "cat": "Secondo - Toscana",
+   "tempo": 120,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Muscolo di manzo","q":1,"u":"kg"},
+    {"n":"Vino rosso Chianti","q":400,"u":"ml"},
+    {"n":"Pepe nero","q":2,"u":"cucchiai"},
+    {"n":"Aglio","q":5,"u":"spicchi"},
+    {"n":"Pomodori pelati","q":200,"u":"g"}
+   ],
+   "pas": [
+    "Taglia la carne a pezzi grossi",
+    "Metti tutto in pentola con abbondante pepe",
+    "Cuoci 50 minuti in pentola a pressione e restringi il sugo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_cotechino-con-lenticchie",
+   "nome": "Cotechino con Lenticchie",
+   "img": "foto/cotechino-con-lenticchie.jpg",
+   "cat": "Secondo - Emilia-Romagna",
+   "tempo": 120,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Cotechino","q":700,"u":"g"},
+    {"n":"Lenticchie","q":300,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Carota","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"}
+   ],
+   "pas": [
+    "Cuoci il cotechino seguendo le istruzioni della confezione",
+    "Prepara le lenticchie con un soffritto",
+    "Servi il cotechino a fette sulle lenticchie"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_bollito-misto",
+   "nome": "Bollito Misto",
+   "img": "foto/bollito-misto.jpg",
+   "cat": "Secondo - Piemonte",
+   "tempo": 180,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Manzo (biancostato)","q":800,"u":"g"},
+    {"n":"Gallina o pollo","q":600,"u":"g"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Sedano","q":2,"u":"coste"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Patate","q":4,"u":"pz"}
+   ],
+   "pas": [
+    "Metti carne e verdure in acqua fredda",
+    "Cuoci 60 minuti in pentola a pressione",
+    "Servi a fette con salsa verde"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_scaloppine-al-limone",
+   "nome": "Scaloppine al Limone",
+   "img": "foto/scaloppine-al-limone.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Fettine di vitello","q":600,"u":"g"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Burro","q":50,"u":"g"},
+    {"n":"Limoni","q":2,"u":"pz"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Infarina le fettine",
+    "Rosola nel burro 2 minuti per lato",
+    "Aggiungi il succo di limone e restringi"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_scaloppine-al-marsala",
+   "nome": "Scaloppine al Marsala",
+   "img": "foto/scaloppine-al-marsala.jpg",
+   "cat": "Secondo - Sicilia",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Fettine di vitello","q":600,"u":"g"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Burro","q":50,"u":"g"},
+    {"n":"Marsala","q":100,"u":"ml"}
+   ],
+   "pas": [
+    "Infarina le fettine",
+    "Rosola nel burro",
+    "Sfuma con il marsala e restringi la salsa"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_cotoletta-di-pollo",
+   "nome": "Cotoletta di Pollo",
+   "img": "foto/cotoletta-di-pollo.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 25,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Petto di pollo a fette","q":600,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Pangrattato","q":120,"u":"g"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Impana le fette di pollo con uova e pangrattato",
+    "Spruzza con olio",
+    "Cuoci a 190°C per 12 minuti girando a metà"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_uova-in-purgatorio",
+   "nome": "Uova in Purgatorio",
+   "img": "foto/uova-in-purgatorio.jpg",
+   "cat": "Secondo - Campania",
+   "tempo": 20,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Uova","q":8,"u":"pz"},
+    {"n":"Passata di pomodoro","q":500,"u":"ml"},
+    {"n":"Aglio","q":1,"u":"spicchi"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Peperoncino","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Prepara un sugo rapido con aglio e peperoncino",
+    "Rompi le uova nel sugo",
+    "Cuoci coperto 6 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_mozzarella-in-carrozza",
+   "nome": "Mozzarella in Carrozza",
+   "img": "foto/mozzarella-in-carrozza.jpg",
+   "cat": "Secondo - Campania",
+   "tempo": 20,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Pane in cassetta","q":8,"u":"fette"},
+    {"n":"Mozzarella","q":250,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Latte","q":50,"u":"ml"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Farcisci il pane con la mozzarella",
+    "Passa nel latte, nella farina e nell'uovo",
+    "Spruzza d'olio e cuoci a 190°C per 10 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_arancini-di-riso",
+   "nome": "Arancini di Riso",
+   "img": "foto/arancini-di-riso.jpg",
+   "cat": "Secondo - Sicilia",
+   "tempo": 40,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Carnaroli","q":300,"u":"g"},
+    {"n":"Ragù di carne","q":200,"u":"g"},
+    {"n":"Piselli","q":100,"u":"g"},
+    {"n":"Mozzarella","q":100,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Pangrattato","q":150,"u":"g"},
+    {"n":"Zafferano","q":1,"u":"bustina"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Cuoci il riso con lo zafferano e raffreddalo",
+    "Forma le palline con ragù, piselli e mozzarella",
+    "Impana e spruzza d'olio",
+    "Cuoci a 190°C per 15 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_suppli-romani",
+   "nome": "Supplì Romani",
+   "img": "foto/suppli-romani.jpg",
+   "cat": "Secondo - Lazio",
+   "tempo": 40,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Riso","q":300,"u":"g"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Mozzarella","q":150,"u":"g"},
+    {"n":"Parmigiano","q":50,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Pangrattato","q":150,"u":"g"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Cuoci il riso al pomodoro e raffreddalo",
+    "Forma degli ovali con un cubetto di mozzarella",
+    "Impana e spruzza d'olio",
+    "Cuoci a 190°C per 15 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_parmigiana-di-zucchine",
+   "nome": "Parmigiana di Zucchine",
+   "img": "foto/parmigiana-di-zucchine.jpg",
+   "cat": "Secondo - Italia",
+   "tempo": 60,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Zucchine","q":1000,"u":"g"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Mozzarella","q":250,"u":"g"},
+    {"n":"Parmigiano","q":60,"u":"g"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Griglia le zucchine a fette",
+    "Alterna zucchine, sugo, mozzarella e parmigiano",
+    "Cuoci a 180°C per 30 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pizza-margherita",
+   "nome": "Pizza Margherita",
+   "img": "foto/pizza-margherita.jpg",
+   "cat": "Piatto unico - Campania",
+   "tempo": 120,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Farina 00","q":500,"u":"g"},
+    {"n":"Acqua","q":325,"u":"ml"},
+    {"n":"Lievito di birra fresco","q":3,"u":"g"},
+    {"n":"Sale","q":10,"u":"g"},
+    {"n":"Passata di pomodoro","q":200,"u":"ml"},
+    {"n":"Mozzarella","q":250,"u":"g"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Impasta farina, acqua, lievito e sale e lascia lievitare 2 ore",
+    "Stendi e condisci con passata e olio",
+    "Cuoci a 250°C per 8 minuti, aggiungendo la mozzarella negli ultimi 4",
+    "Completa con basilico"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "b_hamburgerallagrigl",
+   "nome": "Hamburger alla Griglia",
+   "img": "foto/hamburger-alla-griglia.jpg",
+   "cat": "Secondo - Stati Uniti",
+   "tempo": 20,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Macinato di manzo","q":600,"u":"g"},
+    {"n":"Panini per hamburger","q":4,"u":"pz"},
+    {"n":"Formaggio a fette","q":4,"u":"pz"},
+    {"n":"Insalata","q":100,"u":"g"},
+    {"n":"Pomodori","q":2,"u":"pz"}
+   ],
+   "pas": [
+    "Forma 4 hamburger e salali",
+    "Griglia 4-5 minuti per lato, aggiungendo il formaggio",
+    "Farcisci i panini con insalata e pomodoro"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_chili-con-carne",
+   "nome": "Chili con Carne",
+   "img": "foto/chili-con-carne.jpg",
+   "cat": "Secondo - Tex-Mex",
+   "tempo": 60,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Macinato di manzo","q":500,"u":"g"},
+    {"n":"Fagioli rossi cotti","q":400,"u":"g"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Peperone","q":1,"u":"pz"},
+    {"n":"Peperoncino in polvere","q":1,"u":"cucchiaini"},
+    {"n":"Cumino","q":1,"u":"cucchiaini"}
+   ],
+   "pas": [
+    "Rosola cipolla e carne",
+    "Aggiungi peperone, spezie, passata e fagioli",
+    "Cuoci 40 minuti a fuoco basso"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_tacos-al-pastor",
+   "nome": "Tacos al Pastor",
+   "img": "foto/tacos-al-pastor.jpg",
+   "cat": "Secondo - Messico",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Maiale a fettine","q":600,"u":"g"},
+    {"n":"Ananas","q":200,"u":"g"},
+    {"n":"Tortillas di mais","q":12,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Paprika","q":2,"u":"cucchiaini"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Aceto","q":3,"u":"cucchiai"},
+    {"n":"Lime","q":2,"u":"pz"},
+    {"n":"Coriandolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Marina il maiale con paprika, aglio, aceto e succo di ananas per 1 ora",
+    "Rosola in padella molto calda",
+    "Servi nelle tortillas con ananas, cipolla, coriandolo e lime"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_fajitas-di-pollo",
+   "nome": "Fajitas di Pollo",
+   "img": "foto/fajitas-di-pollo.jpg",
+   "cat": "Secondo - Tex-Mex",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Petto di pollo","q":600,"u":"g"},
+    {"n":"Peperoni","q":3,"u":"pz"},
+    {"n":"Cipolle","q":2,"u":"pz"},
+    {"n":"Tortillas di farina","q":8,"u":"pz"},
+    {"n":"Paprika","q":2,"u":"cucchiaini"},
+    {"n":"Cumino","q":1,"u":"cucchiaini"},
+    {"n":"Lime","q":1,"u":"pz"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Marina il pollo a strisce con spezie e lime",
+    "Salta pollo, peperoni e cipolle in padella calda",
+    "Servi nelle tortillas"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_enchiladas-di-pollo",
+   "nome": "Enchiladas di Pollo",
+   "img": "foto/enchiladas-di-pollo.jpg",
+   "cat": "Secondo - Messico",
+   "tempo": 50,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Tortillas di mais","q":8,"u":"pz"},
+    {"n":"Pollo lessato sfilacciato","q":400,"u":"g"},
+    {"n":"Salsa di pomodoro piccante","q":400,"u":"ml"},
+    {"n":"Formaggio grattugiato","q":150,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Riempi le tortillas con pollo e cipolla",
+    "Disponile in teglia e coprile di salsa e formaggio",
+    "Cuoci a 190°C per 20 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_feijoada-brasiliana",
+   "nome": "Feijoada Brasiliana",
+   "img": "foto/feijoada-brasiliana.jpg",
+   "cat": "Secondo - Brasile",
+   "tempo": 120,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Fagioli neri secchi ammollati","q":400,"u":"g"},
+    {"n":"Salsiccia","q":250,"u":"g"},
+    {"n":"Pancetta","q":150,"u":"g"},
+    {"n":"Costine di maiale","q":400,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Alloro","q":0,"u":""}
+   ],
+   "pas": [
+    "Rosola carni, cipolla e aglio",
+    "Aggiungi i fagioli, l'alloro e acqua",
+    "Cuoci 35 minuti in pentola a pressione",
+    "Servi con riso bianco"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_jambalaya",
+   "nome": "Jambalaya",
+   "img": "foto/jambalaya.jpg",
+   "cat": "Secondo - Stati Uniti (Louisiana)",
+   "tempo": 50,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso a grani lunghi","q":300,"u":"g"},
+    {"n":"Salsiccia piccante","q":250,"u":"g"},
+    {"n":"Pollo","q":300,"u":"g"},
+    {"n":"Gamberi","q":250,"u":"g"},
+    {"n":"Peperone","q":1,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Sedano","q":1,"u":"costa"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Brodo di pollo","q":500,"u":"ml"},
+    {"n":"Paprika","q":2,"u":"cucchiaini"}
+   ],
+   "pas": [
+    "Rosola salsiccia e pollo",
+    "Aggiungi verdure e spezie, poi passata e brodo",
+    "Unisci il riso e cuoci 20 minuti",
+    "Aggiungi i gamberi negli ultimi 5 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_mac-and-cheese",
+   "nome": "Mac and Cheese",
+   "img": "foto/mac-and-cheese.jpg",
+   "cat": "Primo - Stati Uniti",
+   "tempo": 40,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Maccheroni","q":350,"u":"g"},
+    {"n":"Cheddar","q":250,"u":"g"},
+    {"n":"Latte","q":500,"u":"ml"},
+    {"n":"Burro","q":40,"u":"g"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Pangrattato","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Prepara una besciamella con burro, farina e latte",
+    "Sciogli il cheddar nella besciamella",
+    "Mescola con la pasta cotta",
+    "Gratina a 200°C per 15 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_costine-alla-bbq",
+   "nome": "Costine alla BBQ",
+   "img": "foto/costine-alla-bbq.jpg",
+   "cat": "Secondo - Stati Uniti",
+   "tempo": 180,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Costine di maiale","q":1.5,"u":"kg"},
+    {"n":"Salsa barbecue","q":200,"u":"ml"},
+    {"n":"Paprika affumicata","q":2,"u":"cucchiaini"},
+    {"n":"Zucchero di canna","q":2,"u":"cucchiai"},
+    {"n":"Sale","q":0,"u":""}
+   ],
+   "pas": [
+    "Massaggia le costine con spezie e zucchero",
+    "Cuoci a 150°C coperte per 2 ore",
+    "Spennella con la salsa BBQ e cuoci 20 minuti a 200°C"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pulled-pork",
+   "nome": "Pulled Pork",
+   "img": "foto/pulled-pork.jpg",
+   "cat": "Secondo - Stati Uniti",
+   "tempo": 90,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Spalla di maiale","q":1.2,"u":"kg"},
+    {"n":"Salsa barbecue","q":200,"u":"ml"},
+    {"n":"Paprika affumicata","q":2,"u":"cucchiaini"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Panini morbidi","q":4,"u":"pz"}
+   ],
+   "pas": [
+    "Strofina la carne con le spezie",
+    "Cuoci 60 minuti in pentola a pressione con cipolla e poca acqua",
+    "Sfilaccia e mescola con la salsa BBQ",
+    "Servi nei panini"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-fritto-americano",
+   "nome": "Pollo Fritto Americano",
+   "img": "foto/pollo-fritto-americano.jpg",
+   "cat": "Secondo - Stati Uniti",
+   "tempo": 35,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Cosce di pollo","q":1,"u":"kg"},
+    {"n":"Yogurt bianco","q":250,"u":"ml"},
+    {"n":"Farina","q":100,"u":"g"},
+    {"n":"Paprika","q":2,"u":"cucchiaini"},
+    {"n":"Aglio in polvere","q":1,"u":"cucchiaini"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Marina il pollo nello yogurt per 2 ore",
+    "Passa nella farina speziata",
+    "Spruzza d'olio e cuoci a 180°C per 25 minuti girando a metà"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_paella-valenciana",
+   "nome": "Paella Valenciana",
+   "img": "foto/paella-valenciana.jpg",
+   "cat": "Secondo - Spagna",
+   "tempo": 60,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Bomba","q":350,"u":"g"},
+    {"n":"Pollo","q":500,"u":"g"},
+    {"n":"Coniglio","q":300,"u":"g"},
+    {"n":"Fagiolini piatti","q":200,"u":"g"},
+    {"n":"Pomodoro grattugiato","q":2,"u":"pz"},
+    {"n":"Zafferano","q":1,"u":"bustina"},
+    {"n":"Paprika dolce","q":1,"u":"cucchiaini"},
+    {"n":"Brodo di pollo","q":900,"u":"ml"}
+   ],
+   "pas": [
+    "Rosola le carni in padella larga",
+    "Aggiungi fagiolini, pomodoro e paprika",
+    "Unisci riso, brodo e zafferano",
+    "Cuoci 18 minuti senza mescolare e lascia riposare"
+   ],
+   "tip": "Se non trovi il coniglio usa solo pollo."
+  },
+  {
+   "id": "r_tortilla-espanola",
+   "nome": "Tortilla Española",
+   "img": "foto/tortilla-espanola.jpg",
+   "cat": "Secondo - Spagna",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Patate","q":600,"u":"g"},
+    {"n":"Uova","q":6,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Olio EVO","q":150,"u":"ml"},
+    {"n":"Sale","q":0,"u":""}
+   ],
+   "pas": [
+    "Cuoci patate e cipolla a fettine nell'olio finché sono morbide",
+    "Mescola con le uova sbattute",
+    "Cuoci nella padella 5 minuti per lato"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_moussaka",
+   "nome": "Moussaka",
+   "img": "foto/moussaka.jpg",
+   "cat": "Secondo - Grecia",
+   "tempo": 90,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Melanzane","q":800,"u":"g"},
+    {"n":"Macinato di agnello o manzo","q":500,"u":"g"},
+    {"n":"Passata di pomodoro","q":300,"u":"ml"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Patate","q":300,"u":"g"},
+    {"n":"Besciamella","q":500,"u":"ml"},
+    {"n":"Cannella","q":0,"u":""},
+    {"n":"Formaggio grattugiato","q":60,"u":"g"}
+   ],
+   "pas": [
+    "Griglia le melanzane",
+    "Prepara il ragù con cipolla, carne, passata e cannella",
+    "Alterna strati di patate, melanzane e ragù",
+    "Copri di besciamella e formaggio e cuoci a 180°C per 40 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_souvlaki-di-maiale",
+   "nome": "Souvlaki di Maiale",
+   "img": "foto/souvlaki-di-maiale.jpg",
+   "cat": "Secondo - Grecia",
+   "tempo": 30,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Maiale a cubetti","q":700,"u":"g"},
+    {"n":"Olio EVO","q":4,"u":"cucchiai"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Origano","q":1,"u":"cucchiaini"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Pane pita","q":4,"u":"pz"},
+    {"n":"Yogurt greco","q":200,"u":"g"}
+   ],
+   "pas": [
+    "Marina il maiale con olio, limone, origano e aglio",
+    "Infilzalo sugli spiedini e griglia 10 minuti",
+    "Servi nel pane pita con lo yogurt"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_goulash-ungherese",
+   "nome": "Goulash Ungherese",
+   "img": "foto/goulash-ungherese.jpg",
+   "cat": "Secondo - Ungheria",
+   "tempo": 120,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Manzo a cubetti","q":800,"u":"g"},
+    {"n":"Cipolle","q":3,"u":"pz"},
+    {"n":"Paprika dolce","q":3,"u":"cucchiai"},
+    {"n":"Patate","q":400,"u":"g"},
+    {"n":"Passata di pomodoro","q":200,"u":"ml"},
+    {"n":"Peperone","q":1,"u":"pz"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Cumino","q":1,"u":"cucchiaini"}
+   ],
+   "pas": [
+    "Soffriggi le cipolle a lungo",
+    "Aggiungi carne e paprika fuori dal fuoco, poi passata e acqua",
+    "Cuoci 25 minuti in pentola a pressione",
+    "Aggiungi patate e peperone e cuoci 10 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_beef-stroganoff",
+   "nome": "Beef Stroganoff",
+   "img": "foto/beef-stroganoff.jpg",
+   "cat": "Secondo - Russia",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Filetto di manzo a strisce","q":600,"u":"g"},
+    {"n":"Funghi champignon","q":300,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Panna","q":200,"u":"ml"},
+    {"n":"Senape","q":1,"u":"cucchiaini"},
+    {"n":"Burro","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Rosola la carne velocemente e tienila da parte",
+    "Cuoci cipolla e funghi nel burro",
+    "Aggiungi panna e senape e riunisci la carne"
+   ],
+   "tip": "Servi con riso o tagliatelle."
+  },
+  {
+   "id": "r_borscht",
+   "nome": "Borscht",
+   "img": "foto/borscht.jpg",
+   "cat": "Primo - Ucraina",
+   "tempo": 75,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Barbabietole","q":500,"u":"g"},
+    {"n":"Cavolo cappuccio","q":300,"u":"g"},
+    {"n":"Patate","q":300,"u":"g"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Manzo a pezzi","q":400,"u":"g"},
+    {"n":"Panna acida","q":100,"u":"g"},
+    {"n":"Aneto","q":0,"u":""}
+   ],
+   "pas": [
+    "Cuoci il manzo in acqua per 40 minuti",
+    "Aggiungi le verdure a pezzi e cuoci 30 minuti",
+    "Servi con panna acida e aneto"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_wiener-schnitzel",
+   "nome": "Wiener Schnitzel",
+   "img": "foto/wiener-schnitzel.jpg",
+   "cat": "Secondo - Austria",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Fettine di vitello","q":600,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Pangrattato","q":120,"u":"g"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Burro chiarificato","q":100,"u":"g"},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Batti sottili le fettine",
+    "Passa in farina, uovo e pangrattato",
+    "Friggi nel burro 2-3 minuti per lato",
+    "Servi con limone"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_fish-and-chips",
+   "nome": "Fish and Chips",
+   "img": "foto/fish-and-chips.jpg",
+   "cat": "Secondo - Regno Unito",
+   "tempo": 40,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Filetti di merluzzo","q":700,"u":"g"},
+    {"n":"Patate","q":800,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Pangrattato","q":120,"u":"g"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Olio EVO","q":3,"u":"cucchiai"},
+    {"n":"Limone","q":1,"u":"pz"}
+   ],
+   "pas": [
+    "Taglia le patate a bastoncini e condiscile con olio",
+    "Impana il pesce con farina, uovo e pangrattato",
+    "Cuoci le patate 25 minuti a 200°C e aggiungi il pesce per gli ultimi 12 minuti"
+   ],
+   "tip": "In friggitrice ad aria la pastella liquida non regge: meglio la panatura."
+  },
+  {
+   "id": "r_shepherd-s-pie",
+   "nome": "Shepherd's Pie",
+   "img": "foto/shepherd-s-pie.jpg",
+   "cat": "Secondo - Regno Unito",
+   "tempo": 75,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Macinato di agnello o manzo","q":500,"u":"g"},
+    {"n":"Patate","q":800,"u":"g"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Piselli","q":150,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Passata di pomodoro","q":150,"u":"ml"},
+    {"n":"Burro","q":40,"u":"g"},
+    {"n":"Latte","q":80,"u":"ml"}
+   ],
+   "pas": [
+    "Cuoci la carne con cipolla, carote, piselli e passata",
+    "Prepara un purè con patate, burro e latte",
+    "Copri la carne con il purè",
+    "Cuoci a 200°C per 25 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_boeuf-bourguignon",
+   "nome": "Boeuf Bourguignon",
+   "img": "foto/boeuf-bourguignon.jpg",
+   "cat": "Secondo - Francia",
+   "tempo": 150,
+   "app": "Pentola a Pressione",
+   "por": 4,
+   "ing": [
+    {"n":"Manzo a cubetti","q":900,"u":"g"},
+    {"n":"Vino rosso","q":500,"u":"ml"},
+    {"n":"Pancetta","q":120,"u":"g"},
+    {"n":"Cipolline","q":200,"u":"g"},
+    {"n":"Funghi champignon","q":200,"u":"g"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Burro","q":30,"u":"g"},
+    {"n":"Farina","q":20,"u":"g"}
+   ],
+   "pas": [
+    "Rosola pancetta e carne",
+    "Aggiungi carote, vino e acqua e cuoci 35 minuti in pentola a pressione",
+    "Salta cipolline e funghi nel burro e uniscili",
+    "Addensa con il fondo di cottura"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pad-thai",
+   "nome": "Pad Thai",
+   "img": "foto/pad-thai.jpg",
+   "cat": "Primo - Thailandia",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Noodles di riso","q":300,"u":"g"},
+    {"n":"Gamberi","q":300,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Germogli di soia","q":150,"u":"g"},
+    {"n":"Arachidi","q":50,"u":"g"},
+    {"n":"Salsa di pesce","q":3,"u":"cucchiai"},
+    {"n":"Tamarindo","q":2,"u":"cucchiai"},
+    {"n":"Zucchero di canna","q":1,"u":"cucchiai"},
+    {"n":"Lime","q":1,"u":"pz"},
+    {"n":"Cipollotto","q":2,"u":"pz"}
+   ],
+   "pas": [
+    "Ammolla i noodles in acqua tiepida",
+    "Salta i gamberi nel wok, spostali e cuoci le uova",
+    "Aggiungi i noodles con salsa di pesce, tamarindo e zucchero",
+    "Servi con germogli, arachidi e lime"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_curry-verde-thai",
+   "nome": "Curry Verde Thai",
+   "img": "foto/curry-verde-thai.jpg",
+   "cat": "Secondo - Thailandia",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Petto di pollo","q":600,"u":"g"},
+    {"n":"Latte di cocco","q":400,"u":"ml"},
+    {"n":"Pasta di curry verde","q":3,"u":"cucchiai"},
+    {"n":"Zucchine","q":2,"u":"pz"},
+    {"n":"Melanzane","q":1,"u":"pz"},
+    {"n":"Basilico","q":0,"u":""},
+    {"n":"Salsa di pesce","q":2,"u":"cucchiai"},
+    {"n":"Riso jasmine","q":300,"u":"g"}
+   ],
+   "pas": [
+    "Soffriggi la pasta di curry in un poco di latte di cocco",
+    "Aggiungi pollo e verdure",
+    "Unisci il resto del latte e cuoci 15 minuti",
+    "Servi con il riso"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-teriyaki",
+   "nome": "Pollo Teriyaki",
+   "img": "foto/pollo-teriyaki.jpg",
+   "cat": "Secondo - Giappone",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Cosce di pollo disossate","q":700,"u":"g"},
+    {"n":"Salsa di soia","q":4,"u":"cucchiai"},
+    {"n":"Mirin","q":4,"u":"cucchiai"},
+    {"n":"Zucchero","q":2,"u":"cucchiai"},
+    {"n":"Zenzero fresco","q":1,"u":"cucchiaini"},
+    {"n":"Riso per sushi","q":300,"u":"g"}
+   ],
+   "pas": [
+    "Rosola il pollo dalla parte della pelle",
+    "Mescola soia, mirin, zucchero e zenzero e versa in padella",
+    "Cuoci finché la salsa si addensa e lucida il pollo",
+    "Servi con il riso"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-katsu",
+   "nome": "Pollo Katsu",
+   "img": "foto/pollo-katsu.jpg",
+   "cat": "Secondo - Giappone",
+   "tempo": 30,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Petto di pollo","q":600,"u":"g"},
+    {"n":"Panko","q":120,"u":"g"},
+    {"n":"Uova","q":2,"u":"pz"},
+    {"n":"Farina","q":40,"u":"g"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"},
+    {"n":"Salsa tonkatsu","q":80,"u":"ml"},
+    {"n":"Riso per sushi","q":300,"u":"g"}
+   ],
+   "pas": [
+    "Batti il pollo a fette sottili",
+    "Impana con farina, uovo e panko e spruzza d'olio",
+    "Cuoci a 190°C per 12-14 minuti girando a metà",
+    "Servi a fette con salsa e riso"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_bibimbap",
+   "nome": "Bibimbap",
+   "img": "foto/bibimbap.jpg",
+   "cat": "Piatto unico - Corea del Sud",
+   "tempo": 40,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso","q":300,"u":"g"},
+    {"n":"Macinato di manzo","q":300,"u":"g"},
+    {"n":"Spinaci","q":200,"u":"g"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Zucchine","q":1,"u":"pz"},
+    {"n":"Uova","q":4,"u":"pz"},
+    {"n":"Salsa di soia","q":3,"u":"cucchiai"},
+    {"n":"Gochujang","q":2,"u":"cucchiai"},
+    {"n":"Olio di sesamo","q":2,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Cuoci il riso",
+    "Salta separatamente le verdure con un filo di sesamo",
+    "Rosola la carne con la soia",
+    "Componi le ciotole con riso, verdure, carne e uovo all'occhio di bue con gochujang"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_bulgogi",
+   "nome": "Bulgogi",
+   "img": "foto/bulgogi.jpg",
+   "cat": "Secondo - Corea del Sud",
+   "tempo": 30,
+   "app": "Griglia",
+   "por": 4,
+   "ing": [
+    {"n":"Manzo a fettine sottili","q":600,"u":"g"},
+    {"n":"Salsa di soia","q":4,"u":"cucchiai"},
+    {"n":"Zucchero di canna","q":2,"u":"cucchiai"},
+    {"n":"Olio di sesamo","q":2,"u":"cucchiai"},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Pera","q":1,"u":"pz"},
+    {"n":"Cipollotto","q":2,"u":"pz"}
+   ],
+   "pas": [
+    "Frulla la pera e uniscila a soia, zucchero, aglio e sesamo",
+    "Marina la carne per 1 ora",
+    "Griglia o rosola a fuoco vivo 2 minuti per lato"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pollo-kung-pao",
+   "nome": "Pollo Kung Pao",
+   "img": "foto/pollo-kung-pao.jpg",
+   "cat": "Secondo - Cina",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Petto di pollo","q":600,"u":"g"},
+    {"n":"Arachidi","q":80,"u":"g"},
+    {"n":"Peperoncini secchi","q":4,"u":"pz"},
+    {"n":"Peperone","q":1,"u":"pz"},
+    {"n":"Salsa di soia","q":3,"u":"cucchiai"},
+    {"n":"Aceto di riso","q":2,"u":"cucchiai"},
+    {"n":"Zucchero","q":1,"u":"cucchiai"},
+    {"n":"Fecola di mais","q":2,"u":"cucchiaini"}
+   ],
+   "pas": [
+    "Marina il pollo a cubetti con soia e fecola",
+    "Salta peperoncini e pollo nel wok",
+    "Aggiungi peperone, arachidi, soia, aceto e zucchero",
+    "Cuoci finché la salsa si addensa"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_maiale-agrodolce",
+   "nome": "Maiale Agrodolce",
+   "img": "foto/maiale-agrodolce.jpg",
+   "cat": "Secondo - Cina",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Lonza di maiale","q":600,"u":"g"},
+    {"n":"Peperoni","q":2,"u":"pz"},
+    {"n":"Ananas","q":150,"u":"g"},
+    {"n":"Ketchup","q":4,"u":"cucchiai"},
+    {"n":"Aceto di riso","q":3,"u":"cucchiai"},
+    {"n":"Zucchero","q":3,"u":"cucchiai"},
+    {"n":"Fecola di mais","q":50,"u":"g"},
+    {"n":"Olio di semi","q":4,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Impana il maiale a cubetti con la fecola e rosolalo",
+    "Prepara la salsa con ketchup, aceto e zucchero",
+    "Salta peperoni e ananas",
+    "Unisci carne e salsa"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_riso-alla-cantonese",
+   "nome": "Riso alla Cantonese",
+   "img": "foto/riso-alla-cantonese.jpg",
+   "cat": "Primo - Cina",
+   "tempo": 25,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso","q":300,"u":"g"},
+    {"n":"Uova","q":3,"u":"pz"},
+    {"n":"Prosciutto cotto","q":100,"u":"g"},
+    {"n":"Piselli","q":100,"u":"g"},
+    {"n":"Gamberi","q":150,"u":"g"},
+    {"n":"Salsa di soia","q":3,"u":"cucchiai"},
+    {"n":"Cipollotto","q":2,"u":"pz"},
+    {"n":"Olio di semi","q":3,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Cuoci il riso e lascialo raffreddare",
+    "Strapazza le uova nel wok",
+    "Aggiungi prosciutto, gamberi e piselli",
+    "Unisci riso e soia e salta a fuoco vivo"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_pho-bo",
+   "nome": "Pho Bo",
+   "img": "foto/pho-bo.jpg",
+   "cat": "Primo - Vietnam",
+   "tempo": 90,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Noodles di riso","q":300,"u":"g"},
+    {"n":"Brodo di manzo","q":1.5,"u":"l"},
+    {"n":"Manzo a fettine sottilissime","q":300,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Zenzero fresco","q":30,"u":"g"},
+    {"n":"Anice stellato","q":2,"u":"pz"},
+    {"n":"Salsa di pesce","q":2,"u":"cucchiai"},
+    {"n":"Germogli di soia","q":100,"u":"g"},
+    {"n":"Lime","q":1,"u":"pz"},
+    {"n":"Coriandolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Scotta cipolla e zenzero e cuocili nel brodo con l'anice stellato per 40 minuti",
+    "Aggiungi la salsa di pesce",
+    "Metti noodles e manzo crudo nelle ciotole",
+    "Versa il brodo bollente e servi con germogli e lime"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_butter-chicken",
+   "nome": "Butter Chicken",
+   "img": "foto/butter-chicken.jpg",
+   "cat": "Secondo - India",
+   "tempo": 45,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Petto o cosce di pollo","q":700,"u":"g"},
+    {"n":"Yogurt bianco","q":150,"u":"g"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Panna","q":150,"u":"ml"},
+    {"n":"Burro","q":50,"u":"g"},
+    {"n":"Garam masala","q":2,"u":"cucchiaini"},
+    {"n":"Zenzero fresco","q":1,"u":"cucchiaini"},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Riso Basmati","q":300,"u":"g"}
+   ],
+   "pas": [
+    "Marina il pollo con yogurt e metà delle spezie",
+    "Rosolalo in padella",
+    "Prepara la salsa con burro, aglio, zenzero, passata e spezie",
+    "Aggiungi pollo e panna e cuoci 15 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_chicken-tikka-masala",
+   "nome": "Chicken Tikka Masala",
+   "img": "foto/chicken-tikka-masala.jpg",
+   "cat": "Secondo - India",
+   "tempo": 50,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Petto di pollo","q":700,"u":"g"},
+    {"n":"Yogurt bianco","q":150,"u":"g"},
+    {"n":"Passata di pomodoro","q":400,"u":"ml"},
+    {"n":"Panna","q":100,"u":"ml"},
+    {"n":"Garam masala","q":2,"u":"cucchiaini"},
+    {"n":"Paprika","q":1,"u":"cucchiaini"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Aglio","q":2,"u":"spicchi"}
+   ],
+   "pas": [
+    "Marina il pollo con yogurt e spezie",
+    "Cuoci i pezzi a 220°C per 15 minuti",
+    "Prepara la salsa con cipolla, aglio, passata e panna",
+    "Unisci il pollo e cuoci 10 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_biryani-di-pollo",
+   "nome": "Biryani di Pollo",
+   "img": "foto/biryani-di-pollo.jpg",
+   "cat": "Secondo - India",
+   "tempo": 75,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Riso Basmati","q":350,"u":"g"},
+    {"n":"Pollo a pezzi","q":800,"u":"g"},
+    {"n":"Yogurt bianco","q":200,"u":"g"},
+    {"n":"Cipolle","q":2,"u":"pz"},
+    {"n":"Garam masala","q":2,"u":"cucchiaini"},
+    {"n":"Zafferano","q":1,"u":"bustina"},
+    {"n":"Zenzero fresco","q":1,"u":"cucchiaini"},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Burro chiarificato","q":40,"u":"g"}
+   ],
+   "pas": [
+    "Marina il pollo con yogurt e spezie per 1 ora",
+    "Rosola cipolle e pollo",
+    "Cuoci il riso a metà e stratificalo sul pollo con lo zafferano",
+    "Cuoci coperto a fuoco basso per 25 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_shakshuka",
+   "nome": "Shakshuka",
+   "img": "foto/shakshuka.jpg",
+   "cat": "Secondo - Medio Oriente",
+   "tempo": 30,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Uova","q":6,"u":"pz"},
+    {"n":"Pomodori pelati","q":600,"u":"g"},
+    {"n":"Peperoni","q":2,"u":"pz"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Paprika","q":1,"u":"cucchiaini"},
+    {"n":"Cumino","q":1,"u":"cucchiaini"},
+    {"n":"Prezzemolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Soffriggi cipolla, peperoni e aglio con le spezie",
+    "Aggiungi i pelati e cuoci 10 minuti",
+    "Fai dei buchi e rompi le uova",
+    "Cuoci coperto 6 minuti"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_falafel",
+   "nome": "Falafel",
+   "img": "foto/falafel.jpg",
+   "cat": "Secondo - Medio Oriente",
+   "tempo": 40,
+   "app": "Friggitrice ad Aria",
+   "por": 4,
+   "ing": [
+    {"n":"Ceci secchi ammollati","q":300,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Prezzemolo","q":0,"u":""},
+    {"n":"Coriandolo","q":0,"u":""},
+    {"n":"Aglio","q":2,"u":"spicchi"},
+    {"n":"Cumino","q":2,"u":"cucchiaini"},
+    {"n":"Farina di ceci","q":2,"u":"cucchiai"},
+    {"n":"Olio EVO","q":2,"u":"cucchiai"}
+   ],
+   "pas": [
+    "Frulla i ceci crudi ammollati con erbe, cipolla, aglio e spezie",
+    "Forma delle polpettine",
+    "Spruzza d'olio e cuoci a 190°C per 15 minuti girando a metà"
+   ],
+   "tip": "Usa ceci crudi ammollati, non cotti."
+  },
+  {
+   "id": "r_shawarma-di-pollo",
+   "nome": "Shawarma di Pollo",
+   "img": "foto/shawarma-di-pollo.jpg",
+   "cat": "Secondo - Medio Oriente",
+   "tempo": 50,
+   "app": "Forno",
+   "por": 4,
+   "ing": [
+    {"n":"Cosce di pollo disossate","q":800,"u":"g"},
+    {"n":"Yogurt bianco","q":150,"u":"g"},
+    {"n":"Paprika","q":2,"u":"cucchiaini"},
+    {"n":"Cumino","q":1,"u":"cucchiaini"},
+    {"n":"Aglio","q":3,"u":"spicchi"},
+    {"n":"Pane pita","q":4,"u":"pz"},
+    {"n":"Pomodori","q":2,"u":"pz"},
+    {"n":"Salsa tahina","q":80,"u":"g"}
+   ],
+   "pas": [
+    "Marina il pollo con yogurt e spezie per 2 ore",
+    "Cuoci a 220°C per 30 minuti",
+    "Affetta e servi nel pane pita con pomodori e tahina"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_cous-cous-alle-verdure",
+   "nome": "Cous Cous alle Verdure",
+   "img": "foto/cous-cous-alle-verdure.jpg",
+   "cat": "Secondo - Nord Africa",
+   "tempo": 35,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Cous cous","q":300,"u":"g"},
+    {"n":"Zucchine","q":2,"u":"pz"},
+    {"n":"Carote","q":2,"u":"pz"},
+    {"n":"Ceci cotti","q":200,"u":"g"},
+    {"n":"Cipolla","q":1,"u":"pz"},
+    {"n":"Passata di pomodoro","q":200,"u":"ml"},
+    {"n":"Ras el hanout","q":2,"u":"cucchiaini"},
+    {"n":"Brodo vegetale","q":300,"u":"ml"}
+   ],
+   "pas": [
+    "Stufa cipolla e verdure con le spezie e la passata",
+    "Aggiungi i ceci e cuoci 20 minuti",
+    "Idrata il cous cous con brodo bollente per 5 minuti e sgranalo",
+    "Servi con le verdure"
+   ],
+   "tip": ""
+  },
+  {
+   "id": "r_tajine-di-pollo",
+   "nome": "Tajine di Pollo",
+   "img": "foto/tajine-di-pollo.jpg",
+   "cat": "Secondo - Marocco",
+   "tempo": 75,
+   "app": "Fornello",
+   "por": 4,
+   "ing": [
+    {"n":"Cosce di pollo","q":1,"u":"kg"},
+    {"n":"Olive verdi","q":100,"u":"g"},
+    {"n":"Limone","q":1,"u":"pz"},
+    {"n":"Cipolle","q":2,"u":"pz"},
+    {"n":"Zenzero fresco","q":1,"u":"cucchiaini"},
+    {"n":"Curcuma","q":1,"u":"cucchiaini"},
+    {"n":"Zafferano","q":1,"u":"bustina"},
+    {"n":"Coriandolo","q":0,"u":""}
+   ],
+   "pas": [
+    "Rosola le cipolle con le spezie",
+    "Aggiungi il pollo e poca acqua",
+    "Cuoci coperto 45 minuti",
+    "Unisci olive e limone e cuoci 10 minuti"
+   ],
+   "tip": ""
   }
  ]
 }
